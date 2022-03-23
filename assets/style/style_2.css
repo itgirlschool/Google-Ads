@@ -1,5 +1,5 @@
 .main-example,
-.main-structure,
+.main-structure__container,
 .main-target,
 .main-why-target__container,
 .main-about__container,
@@ -17,8 +17,8 @@
     align-items: center;
     justify-content: space-between;
     align-content: flex-start;
-    padding-bottom: 30px;
-    padding-top: 30px;
+    /* padding-bottom: 30px; */
+    /* padding-top: 30px; */
 }
 
 .main-about__social-media {
@@ -27,23 +27,21 @@
     border: 1px solid #C1D3DE;
     border-radius: 12px;
     /* padding: 10px; */
-    align-items: center;
+    align-items: flex-start;
+    padding-top: 20px;
 
 
 
 }
 
-.main-about__img {
-    /* height: 100%; */
+/* .main-about__img {
+    height: 100%;
     border: 1px solid;
-}
+} */
 
-.main-about__social-media .main-about__text {
+/* .main-about__social-media .main-about__text {
     border: 1px solid;
-    /* margin-top: 30px; */
-
-
-}
+    } */
 
 .main-about,
 .main-aim {
@@ -54,7 +52,7 @@
     max-width: 50%;
 }
 
-.main-about__inner-container p,
+.main-about__text,
 .main-about__inner-container h2 {
     margin-bottom: 30px;
 }
@@ -70,15 +68,32 @@
     font-weight: 700;
 }
 
-/* .main-stracture .table {
-    font-size: 20px;
-} */
+
 
 .main-example__heading {
     max-width: 62%;
     margin: 0 auto;
     text-align: center;
 }
+
+.main-structure,
+.main-price {
+    background-color: #EDF4FA;
+}
+
+
+/* Строки таблицы */
+.main__table-white {
+    background-color: white;
+}
+
+.main__table-blue {
+    background-color: #EDF4FA;
+}
+
+
+
+
 
 
 .main-target__container {
@@ -194,10 +209,15 @@
     border: 1px solid #C1D3DE;
     border-radius: 10px;
     align-items: center;
+
 }
 
 .main-ptice__icon {
     height: 100%;
     margin-right: 20px;
     margin-left: 20px;
+}
+
+.main-price__euro {
+    font-weight: bold;
 }
