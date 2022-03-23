@@ -1,6 +1,6 @@
 .main-about,
 .why-we,
-.main_numbers {
+.main-numbers {
     width: 73%;
     margin: 0 auto;
     border: 1px solid blue;
@@ -43,7 +43,18 @@
 
 .header__btn {
     padding: 15px;
+    margin: 10px;
+    color: white;
     background-color: Transparent;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    border: 1px solid #C1D3DE;
+    box-sizing: border-box;
+    border-radius: 12px;
+}
+
+.header__btn-clr {
+    color: #C1D3DE;
 }
 
 .header__text {
@@ -88,17 +99,15 @@
     border-radius: 12px;
 }
 
-
-
-
-
-.main_numbers-bg {
+.main-numbers-bg {
     color: white;
     background-color: #393A56;
     height: 328px;
 }
 
-.main_numbers {
+
+
+.main-numbers {
     display: flex;
 }
 
@@ -106,22 +115,32 @@
     width: 800px;
     height: 132px;
 }
-.main_numbers__h4 {
-font-size: 38px;
-font-family: 'Inter', sans-serif;
+
+.main-numbers__h4 {
+    font-size: 38px;
+    font-family: 'Inter', sans-serif;
 }
-.main_numbers__p {
+
+.main-numbers__p {
     font-size: 26px;
-    font-family:'Inter', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
-.main_numbers-column {
+
+.main__numbers-column {
     display: flex;
     align-items: center;
+
+
 }
+
 .number {
     font-size: 68px;
-    font-family: 'Inter', sans-serif;;
+    font-family: 'Inter', sans-serif;
+    padding-bottom: 24px;
+    padding: 30px
+    ;
 }
+
 .number-text {
     font-size: 20px;
     font-family: 'Inter', sans-serif;
