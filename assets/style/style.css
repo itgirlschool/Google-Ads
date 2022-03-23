@@ -86,7 +86,7 @@
 
 .about-ads__img {
     width: 50%;
-    margin-left 5%;
+    margin-left: 5%;
     margin-right: 5%;
 }
 
@@ -100,4 +100,62 @@
     font-family: Inter;
     font-style: normal;
     font-weight: 400;
+}
+
+
+
+/* из smm */
+
+
+.main-offer__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.main-offer__text,
+.main-offer__inner-container {
+    margin-top: 20px;
+}
+
+.main-offer__inner-container {
+    width: 73%;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.main-offer__container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+.main-offer__heading {
+    max-width: 70%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.main-offer__inner-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
+
+.main-offer__inner-container div {
+    border-top: 1px solid #8B9BAB;
+    width: 20%;
+}
+
+.main-offer {
+    background-color: #393A56;
+    color: white;
+}
+
+.main-offer__inner-container img {
+    padding: 20px;
 }
