@@ -1,10 +1,12 @@
 .main-example,
-.main-structure,
+.main-structure__container,
 .main-target,
-.main-why-target,
-.main-about__container {
+.main-why-target__container,
+.main-about__container,
+.main-settings__container,
+.main-aim__container,
+.main-price__container {
     width: 73%;
-
     margin: 0 auto;
     border: 1px solid blue;
 
@@ -13,6 +15,10 @@
 .main-about__container {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    align-content: flex-start;
+    /* padding-bottom: 30px; */
+    /* padding-top: 30px; */
 }
 
 .main-about__social-media {
@@ -20,47 +26,198 @@
     background-color: #FBF7F1;
     border: 1px solid #C1D3DE;
     border-radius: 12px;
+    /* padding: 10px; */
+    align-items: flex-start;
+    padding-top: 20px;
+
+
+
 }
 
-
-.main-about {
-    background-color: #EDF4FA;
-}
-
-
-
-
-/* .main-stracture {
-    background-color: #EDF4FA;
+/* .main-about__img {
+    height: 100%;
+    border: 1px solid;
 } */
+
+/* .main-about__social-media .main-about__text {
+    border: 1px solid;
+    } */
+
+.main-about,
+.main-aim {
+    background-color: #EDF4FA;
+}
+
+.main-about__inner-container {
+    max-width: 50%;
+}
+
+.main-about__text,
+.main-about__inner-container h2 {
+    margin-bottom: 30px;
+}
+
+
+
+.main-example__table {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.main-example__table-bold {
+    font-weight: 700;
+}
+
+
+
+.main-example__heading {
+    max-width: 62%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main-structure,
+.main-price {
+    background-color: #EDF4FA;
+}
+
+
+/* Строки таблицы */
+.main__table-white {
+    background-color: white;
+}
+
+.main__table-blue {
+    background-color: #EDF4FA;
+}
+
+
+
+
+
 
 .main-target__container {
     display: flex;
     flex-direction: row;
-    align-items: flex-start
+    align-items: flex-start;
 }
 
-.bold-900 {
+.main-target__text {
+    margin-top: 20px;
+}
+
+.h2-bold-900 {
     font-weight: 900;
+    font-size: 38px;
+    /* margin-top: 80px;
+    margin-bottom: 24px; */
 }
 
+.p-700 {
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.main-why-target p,
+.p-400,
+.main-target__text {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.h3-400 {
+    font-size: 26px;
+}
+
+/* h2 {
+    margin-bottom: 30px;
+} */
 .main-why-target__container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+.main-why-target__heading {
+    max-width: 70%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.main-why-target__inner-container {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
 
 }
 
-.main-why-target__container div {
+.main-why-target__inner-container div {
     border-top: 1px solid #8B9BAB;
     width: 20%;
 }
 
 .main-why-target {
     background-color: #393A56;
-    height: 512px;
     color: white;
+}
+
+.main-why-target__inner-container img {
+    padding: 20px;
+}
+
+.main-setings__parameters {
+    display: flex;
+    justify-content: space-between;
+
 }
 
 
 /* Центрирование заголовков */
+.main-target__h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 30px;
+
+}
+
+.main-example__h2,
+.main-price__h2 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.main-structure__h2 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+.main-price__budget {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    border: 1px solid #C1D3DE;
+    border-radius: 10px;
+    align-items: center;
+
+}
+
+.main-ptice__icon {
+    height: 100%;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.main-price__euro {
+    font-weight: bold;
+}
