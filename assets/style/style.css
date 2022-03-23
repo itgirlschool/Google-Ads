@@ -9,6 +9,7 @@
 
 }
 
+
 .info__logo {
     background-color: rgba(251, 247, 241, 1);
     display: flex;
@@ -29,4 +30,44 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
+}
+
+.clients__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    border: 1px solid #C1D3DE;
+    border-radius: 12px;
+    padding: 30px 30px 30px 30px;
+}
+
+.clients__icon {
+    display: flex;
+    width: 73%;
+    justify-content: center;
+    align-items: center;
+}
+
+.containericon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+}
+
+.clients__header {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
 }
