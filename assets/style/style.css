@@ -52,7 +52,8 @@
     align-items: center;
 }
 
-.containericon {
+.containericon,
+.about-ads {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -66,8 +67,37 @@
     text-align: center;
 }
 
-.clients__header {
+.h1 {
     font-family: Inter;
     font-style: normal;
     font-weight: 900;
+}
+
+.about-ads__cards {
+    width: 73%;
+
+}
+
+.about-ads__card {
+    display: flex;
+    justify-content: center;
+
+}
+
+.about-ads__img {
+    width: 50%;
+    margin-left 5%;
+    margin-right: 5%;
+}
+
+.h3 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.about-adds__text {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
 }
