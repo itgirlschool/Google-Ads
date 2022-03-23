@@ -1,12 +1,34 @@
 .main-example,
 .main-structure,
-.main-target {
+.main-target,
+.main-why-target,
+.main-about__container {
     width: 73%;
 
     margin: 0 auto;
     border: 1px solid blue;
 
 }
+
+.main-about__container {
+    display: flex;
+    align-items: center;
+}
+
+.main-about__social-media {
+    display: flex;
+    background-color: #FBF7F1;
+    border: 1px solid #C1D3DE;
+    border-radius: 12px;
+}
+
+
+.main-about {
+    background-color: #EDF4FA;
+}
+
+
+
 
 /* .main-stracture {
     background-color: #EDF4FA;
@@ -15,8 +37,30 @@
 .main-target__container {
     display: flex;
     flex-direction: row;
+    align-items: flex-start
 }
 
 .bold-900 {
     font-weight: 900;
 }
+
+.main-why-target__container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
+
+.main-why-target__container div {
+    border-top: 1px solid #8B9BAB;
+    width: 20%;
+}
+
+.main-why-target {
+    background-color: #393A56;
+    height: 512px;
+    color: white;
+}
+
+
+/* Центрирование заголовков */
