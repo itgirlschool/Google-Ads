@@ -69,7 +69,11 @@
 .main-target__container {
     display: flex;
     flex-direction: row;
-    align-items: flex-start
+    align-items: flex-start;
+}
+
+.main-target__text {
+    margin-top: 20px;
 }
 
 .h2-bold-900 {
@@ -85,7 +89,9 @@
 
 }
 
-.p-400 {
+.main-why-target p,
+.p-400,
+.main-target__text {
     font-size: 20px;
     font-weight: 400;
 }
@@ -97,6 +103,17 @@
 /* h2 {
     margin-bottom: 30px;
 } */
+.main-why-target__container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+.main-why-target__heading {
+    max-width: 70%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
 
 .main-why-target__inner-container {
     display: flex;
@@ -115,5 +132,13 @@
     color: white;
 }
 
+.main-why-target__inner-container img {
+    padding: 20px;
+}
 
 /* Центрирование заголовков */
+.main-target__h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
