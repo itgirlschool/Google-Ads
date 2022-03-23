@@ -2,7 +2,10 @@
 .main-structure,
 .main-target,
 .main-why-target__container,
-.main-about__container {
+.main-about__container,
+.main-settings__container,
+.main-aim__container,
+.main-price__container {
     width: 73%;
     margin: 0 auto;
     border: 1px solid blue;
@@ -42,7 +45,8 @@
 
 }
 
-.main-about {
+.main-about,
+.main-aim {
     background-color: #EDF4FA;
 }
 
@@ -57,14 +61,25 @@
 
 
 
-/* .main-example .table {
-    font-size: 20px;
+.main-example__table {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
+.main-example__table-bold {
+    font-weight: 700;
+}
 
-.main-stracture .table {
+/* .main-stracture .table {
     font-size: 20px;
 } */
+
+.main-example__heading {
+    max-width: 62%;
+    margin: 0 auto;
+    text-align: center;
+}
+
 
 .main-target__container {
     display: flex;
@@ -136,9 +151,29 @@
     padding: 20px;
 }
 
+.main-setings__parameters {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
 /* Центрирование заголовков */
 .main-target__h2 {
     text-align: center;
     margin-bottom: 40px;
     margin-top: 30px;
+
+}
+
+.main-example__h2 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.main-structure__h2 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
