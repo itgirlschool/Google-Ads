@@ -1,0 +1,13 @@
+.main-example,
+.main-structure,
+.main-target {
+    width: 73%;
+
+    margin: 0 auto;
+    border: 1px solid blue;
+    text-align: center;
+}
+
+/* .main-stracture {
+    background-color: #EDF4FA;
+} */
