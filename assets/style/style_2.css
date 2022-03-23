@@ -3,7 +3,9 @@
 .main-target,
 .main-why-target__container,
 .main-about__container,
-.main-settings__container {
+.main-settings__container,
+.main-aim__container,
+.main-price__container {
     width: 73%;
     margin: 0 auto;
     border: 1px solid blue;
@@ -43,7 +45,8 @@
 
 }
 
-.main-about {
+.main-about,
+.main-aim {
     background-color: #EDF4FA;
 }
 
