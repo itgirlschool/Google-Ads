@@ -1,0 +1,45 @@
+.header {
+    height: 496px;
+    background-image: url(/assets/images/page5/about_us_header.png);
+    width: 100vw;
+    max-width: 100vw;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 24px;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.link {
+    text-decoration: none;
+    color: white;
+}
+.link:hover {
+    text-decoration: underline;
+}
+
+.header__text {
+    color: white;
+}
+
+.header__about-us-text {
+    width: 560px;
+    height: 163px;
+    padding-left: 261px;
+}
+
+.header__h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 68px;
+}
+
+.header__p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
