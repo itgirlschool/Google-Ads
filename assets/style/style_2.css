@@ -166,7 +166,8 @@
 
 }
 
-.main-example__h2 {
+.main-example__h2,
+.main-price__h2 {
     margin-top: 30px;
     margin-bottom: 20px;
     text-align: center;
@@ -176,4 +177,27 @@
     text-align: center;
     margin-top: 30px;
     margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+.main-price__budget {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    border: 1px solid #C1D3DE;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.main-ptice__icon {
+    height: 100%;
+    margin-right: 20px;
+    margin-left: 20px;
 }
