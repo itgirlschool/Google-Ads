@@ -16,11 +16,12 @@
     width: 100%;
     max-width: 100%;
 }
+
 .header__nav-container {
     display: flex;
     justify-content: space-between;
     padding-top: 24px;
-    padding-left:30px;
+    padding-left: 30px;
     padding-right: 24px;
 }
 
@@ -73,7 +74,7 @@
 }
 
 .main-about-us {
-    background-color: #EDF4FA; 
+    background-color: #EDF4FA;
 }
 
 .main-about__h2 {
@@ -142,8 +143,7 @@
     font-size: 68px;
     font-family: 'Inter', sans-serif;
     padding-bottom: 24px;
-    padding: 30px
-    ;
+    padding: 30px;
 }
 
 .number-text {
