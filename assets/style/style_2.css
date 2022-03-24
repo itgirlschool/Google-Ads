@@ -167,6 +167,8 @@
 
 
 
+
+
 .main-target__container {
     display: flex;
     flex-direction: row;
@@ -253,7 +255,8 @@
 }
 
 .main-example__h2,
-.main-price__h2 {
+.main-price__h2,
+    {
     margin-top: 30px;
     margin-bottom: 20px;
     text-align: center;
@@ -262,6 +265,19 @@
 .main-structure__h2 {
     text-align: center;
     padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.main-aim__h2 {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.main-aim__p {
+    max-width: 840px;
+    margin: 0 auto;
+    text-align: center;
     padding-bottom: 20px;
 }
 
