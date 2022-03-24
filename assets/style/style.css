@@ -159,3 +159,29 @@
 .main-offer__inner-container img {
     padding: 20px;
 }
+
+.main-punkts__inner-container {
+    border-top: 1px solid rgba(193, 211, 222, 1);
+}
+
+.main-punkts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.main-punkts__container {
+    width: 73%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 50% 50%;
+
+}
+
+.main-punkts__inner-container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    padding-top: 50px;
+}
