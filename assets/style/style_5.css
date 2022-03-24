@@ -3,7 +3,6 @@
 .main-numbers {
     width: 73%;
     margin: 0 auto;
-    border: 1px solid blue;
 }
 
 .main-about-us {
@@ -23,7 +22,6 @@
     padding-left:30px;
     padding-right: 24px;
 }
-
 
 .link {
     text-decoration: none;
@@ -74,8 +72,8 @@
     font-size: 20px;
 }
 
-.main-about {
-    background-color: #EDF4FA;
+.main-about-us {
+    background-color: #EDF4FA; 
 }
 
 .main-about__h2 {
@@ -99,13 +97,22 @@
     align-items: center;
 }
 
+
+
+.I-900 {
+    font-family: 'Inter', sans-serif;
+    font-size: 38px;
+}
+
+
+
+
+
 .main-numbers-bg {
     color: white;
     background-color: #393A56;
     height: 328px;
 }
-
-
 
 .main-numbers {
     display: flex;
