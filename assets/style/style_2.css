@@ -327,8 +327,7 @@
 }
 
 .main-example__h2,
-.main-price__h2,
-    {
+.main-price__h2 {
     margin-top: 30px;
     margin-bottom: 20px;
     text-align: center;
