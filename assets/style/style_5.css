@@ -71,6 +71,8 @@
 }
 
 
+
+
 .p-400 {
     font-weight: 400;
     font-family: 'Inter', sans-serif;
@@ -86,16 +88,20 @@
 .main-about-us {
     background-color: #EDF4FA;
 }
+
 .main-about-us__h2 {
     color: #242A56;
     padding-top: 80px;
 }
+
 .main-about-us-text {
     color: #393A56;
 }
+
 .main-about-us-text {
     padding-top: 15px;
 }
+
 .li {
     padding: 10px;
 }
@@ -105,6 +111,7 @@
     border: 1px solid #C1D3DE;
     border-radius: 12px;
     padding: 30px;
+    margin-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
