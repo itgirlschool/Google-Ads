@@ -140,37 +140,37 @@
     font-size: 20px;
     font-family: 'Inter', sans-serif;
 }
- 
 
 
-main-numbers-bg {
+.main-numbers-bg {
     color: white;
     background-color: #393A56;
-    height: 328px;
 }
 
-main-numbers {
+.main-numbers {
     display: flex;
 }
 
-main_numbers-text {
+.main__numbers-text {
     width: 800px;
     height: 132px;
 }
 
-main-numbers__h4 {
+.main-numbers__h4 {
     font-size: 38px;
+    font-weight: 900;
     font-family: 'Inter', sans-serif;
 }
 
-main-numbers__p {
+.main-numbers__p {
     font-size: 26px;
     font-family: 'Inter', sans-serif;
 }
 
-main__numbers-column {
+.main__numbers-column {
     display: flex;
     align-items: center;
+    font-weight: 400;
 }
 
 number {
