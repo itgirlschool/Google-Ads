@@ -121,17 +121,26 @@
     padding-top: 30px;
     padding-bottom: 80px;
 }
-why-we__container {
+
+
+
+
+.why-we__container {
     display: flex;
 }
-main-selest__table-bold {
-    font-weight: bold;
-}
-I-900 {
+.why-we__h3 {
     font-family: 'Inter', sans-serif;
     font-size: 38px;
+    font-weight: 900;
+    margin-top: 80px;
 }
-
+.main-selest__table-bold {
+    font-weight: bold;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+}
+ 
 
 
 main-numbers-bg {
