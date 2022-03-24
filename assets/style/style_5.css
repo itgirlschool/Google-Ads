@@ -1,14 +1,12 @@
-.main-about,
+.header__about-us-text,
+.main-about-us__container,
 .why-we,
-.main-numbers,
-.header__about-us-text {
+.main-numbers {
     width: 73%;
     margin: 0 auto;
 }
 
-.main-about-us {
-    background-color: #EDF4FA;
-}
+
 
 .header {
     height: 496px;
@@ -73,32 +71,36 @@
 }
 
 
-.h2-bolt-700 {
-    font-weight: 700;
-    font-size: 26px;
-    font-family: 'Inter', sans-serif;
-    color: #242A56;
-}
-
 .p-400 {
     font-weight: 400;
     font-family: 'Inter', sans-serif;
     font-size: 20px;
-    color: #393A56;
 }
-    
+
+.h2-bolt-700 {
+    font-weight: 700;
+    font-size: 26px;
+    font-family: 'Inter', sans-serif;
+}
+
 .main-about-us {
     background-color: #EDF4FA;
 }
-
-
-.main-about-text {
-    font-family: 'Inter', sans-serif;
+.main-about-us__h2 {
+    color: #242A56;
+    padding-top: 80px;
+}
+.main-about-us-text {
     color: #393A56;
-    font-size: 20px;
+}
+.main-about-us-text {
+    padding-top: 15px;
+}
+.li {
+    padding: 10px;
 }
 
-.main-about-back {
+.main-about-us-back {
     background-color: #FBF7F1;
     border: 1px solid #C1D3DE;
     border-radius: 12px;
@@ -107,58 +109,61 @@
     justify-content: center;
     align-items: center;
 }
-
-.why-we__container {
+.main-about-us-end {
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+why-we__container {
     display: flex;
 }
-.main-selest__table-bold {
+main-selest__table-bold {
     font-weight: bold;
 }
-.I-900 {
+I-900 {
     font-family: 'Inter', sans-serif;
     font-size: 38px;
 }
 
 
 
-.main-numbers-bg {
+main-numbers-bg {
     color: white;
     background-color: #393A56;
     height: 328px;
 }
 
-.main-numbers {
+main-numbers {
     display: flex;
 }
 
-.main_numbers-text {
+main_numbers-text {
     width: 800px;
     height: 132px;
 }
 
-.main-numbers__h4 {
+main-numbers__h4 {
     font-size: 38px;
     font-family: 'Inter', sans-serif;
 }
 
-.main-numbers__p {
+main-numbers__p {
     font-size: 26px;
     font-family: 'Inter', sans-serif;
 }
 
-.main__numbers-column {
+main__numbers-column {
     display: flex;
     align-items: center;
 }
 
-.number {
+number {
     font-size: 68px;
     font-family: 'Inter', sans-serif;
     padding-bottom: 24px;
     padding: 30px;
 }
 
-.number-text {
+number-text {
     font-size: 20px;
     font-family: 'Inter', sans-serif;
 }
