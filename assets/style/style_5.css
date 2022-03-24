@@ -1,6 +1,7 @@
 .main-about,
 .why-we,
-.main-numbers {
+.main-numbers,
+.header__about-us-text {
     width: 73%;
     margin: 0 auto;
 }
@@ -59,7 +60,6 @@
 .header__about-us-text {
     width: 560px;
     height: 163px;
-    padding-left: 261px;
 }
 
 .header__h1 {
