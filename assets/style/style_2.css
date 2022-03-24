@@ -5,10 +5,11 @@
 .main-about__container,
 .main-settings__container,
 .main-aim__container,
-.main-price__container {
+.main-price__container,
+.main-select__container {
     width: 73%;
     margin: 0 auto;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 
 }
 
@@ -59,14 +60,19 @@
 
 
 
-.main-example__table {
-    margin-top: 30px;
-    margin-bottom: 30px;
+.main-example .main-example__table {
+    margin-bottom: 40px;
 }
+
+/* .main-structure .main-structure__table {
+    margin-bottom: 40px;
+} */
 
 .main-example__table-bold {
     font-weight: 700;
 }
+
+
 
 
 
@@ -190,8 +196,8 @@
 
 .main-structure__h2 {
     text-align: center;
-    margin-top: 30px;
-    margin-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
 
 
@@ -218,6 +224,7 @@
     margin-left: 20px;
 }
 
-.main-price__euro {
+.main-price__euro,
+.main-selest__table-bold {
     font-weight: bold;
 }
