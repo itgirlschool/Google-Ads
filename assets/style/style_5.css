@@ -6,8 +6,6 @@
     margin: 0 auto;
 }
 
-
-
 .header {
     height: 496px;
     background-image: url(/assets/images/page5/about_us_header.png);
@@ -33,6 +31,7 @@
 
 .link:hover {
     text-decoration: underline;
+    color: white;
 }
 
 .header__btn {
@@ -42,7 +41,6 @@
     background-color: Transparent;
     font-family: 'Inter', sans-serif;
     border: 1px solid #C1D3DE;
-    box-sizing: border-box;
     border-radius: 12px;
 }
 
@@ -63,11 +61,14 @@
 .header__h1 {
     font-family: 'Inter', sans-serif;
     font-size: 68px;
+    font-weight: 900;
+    margin-top: 80px;
 }
 
 .header__p {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
+    font-weight: 400;
 }
 
 
