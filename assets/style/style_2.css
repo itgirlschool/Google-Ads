@@ -6,12 +6,69 @@
 .main-settings__container,
 .main-aim__container,
 .main-price__container,
-.main-select__container {
+.main-select__container,
+.header__text {
     width: 73%;
     margin: 0 auto;
     /* border: 1px solid blue; */
 
 }
+
+.header {
+    height: 496px;
+    background-image: url(/assets/images/page2/header.png);
+    width: 100%;
+    max-width: 100%;
+}
+
+.header__nav-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    padding: 25px;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.header__btn {
+    padding: 15px;
+    margin: 10px;
+    color: white;
+    background-color: Transparent;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    border: 1px solid #C1D3DE;
+    box-sizing: border-box;
+    border-radius: 12px;
+}
+
+.header__btn-clr {
+    color: #C1D3DE;
+}
+
+.header__text {
+    color: white;
+}
+
+.header__h1 {
+    font-size: 68px;
+    font-weight: 900;
+}
+
+.header__p {
+    font-size: 20px;
+}
+
+
 
 .main-about__container {
     display: flex;
