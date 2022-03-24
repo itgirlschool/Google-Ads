@@ -16,25 +16,21 @@
     width: 100%;
     max-width: 100%;
 }
-
-.logo {
+.header__nav-container {
     display: flex;
     justify-content: space-between;
     padding-top: 24px;
+    padding-left:30px;
+    padding-right: 24px;
 }
 
-.header__nav {
-    display: flex;
-    justify-content: end;
-}
 
 .link {
     text-decoration: none;
     color: white;
-    padding: 25px;
+    padding: 18px;
     font-size: 16px;
     font-family: 'Inter', sans-serif;
-    font-size: 16px;
 }
 
 .link:hover {
@@ -55,6 +51,7 @@
 
 .header__btn-clr {
     color: #C1D3DE;
+    margin-right: 30px;
 }
 
 .header__text {
@@ -94,9 +91,12 @@
 
 .main-about-back {
     background-color: #FBF7F1;
-    height: 116px;
     border: 1px solid #C1D3DE;
     border-radius: 12px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .main-numbers-bg {
@@ -129,8 +129,6 @@
 .main__numbers-column {
     display: flex;
     align-items: center;
-
-
 }
 
 .number {
