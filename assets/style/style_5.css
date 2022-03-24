@@ -42,7 +42,6 @@
     margin: 10px;
     color: white;
     background-color: Transparent;
-    color: white;
     font-family: 'Inter', sans-serif;
     border: 1px solid #C1D3DE;
     box-sizing: border-box;
@@ -73,19 +72,23 @@
     font-size: 20px;
 }
 
+
+.h2-bolt-700 {
+    font-weight: 700;
+    font-size: 26px;
+    font-family: 'Inter', sans-serif;
+    color: #242A56;
+}
+
 .main-about-us {
     background-color: #EDF4FA;
 }
 
-.main-about__h2 {
-    font-family: 'Inter', sans-serif;
-    font-size: 26px;
-    color: #242A56;
-}
 
 .main-about-text {
     font-family: 'Inter', sans-serif;
     color: #393A56;
+    font-size: 20px;
 }
 
 .main-about-back {
@@ -98,14 +101,16 @@
     align-items: center;
 }
 
-
-
+.why-we__container {
+    display: flex;
+}
+.main-selest__table-bold {
+    font-weight: bold;
+}
 .I-900 {
     font-family: 'Inter', sans-serif;
     font-size: 38px;
 }
-
-
 
 
 
