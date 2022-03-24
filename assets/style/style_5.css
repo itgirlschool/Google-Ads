@@ -80,6 +80,13 @@
     color: #242A56;
 }
 
+.p-400 {
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    color: #393A56;
+}
+    
 .main-about-us {
     background-color: #EDF4FA;
 }
