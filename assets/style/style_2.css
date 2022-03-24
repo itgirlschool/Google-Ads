@@ -7,7 +7,8 @@
 .main-aim__container,
 .main-price__container,
 .main-select__container,
-.header__text {
+.header__text,
+.main-trust__container {
     width: 73%;
     margin: 0 auto;
     /* border: 1px solid blue; */
@@ -327,8 +328,7 @@
 }
 
 .main-example__h2,
-.main-price__h2,
-    {
+.main-price__h2 {
     margin-top: 30px;
     margin-bottom: 20px;
     text-align: center;
@@ -399,7 +399,62 @@
     font-weight: bold;
 }
 
-.main-price__container {
+.main-price__container,
+.main-trust__container {
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
+}
+
+.main-trust__images img {
+    margin: 10px;
+    max-width: 250px;
+}
+
+.main-trust__h2 {
+    text-align: center;
+}
+
+.main-trust__images {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.main-trust__telephon-container {
+    display: flex;
+    background-color: #376FFF;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-trust__telephon {
+    font-size: 55px;
+    font-weight: 700;
+    color: white;
+    text-decoration: underline;
+}
+
+.main-trust__h2-white {
+    font-size: 28px;
+    font-weight: 900;
+    color: white;
+}
+
+.main-trust__p {
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.main-trust__telephon-container div {
+    /* border: 1px solid wheat; */
+    margin: 50px 100px 50px 100px;
+}
+
+.main-trust__telephon-text {
+    max-width: 30%;
+}
+
+.main-trust__telephon {
+    max-width: 450px;
 }

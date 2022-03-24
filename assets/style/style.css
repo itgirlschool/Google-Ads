@@ -188,3 +188,27 @@
     font-style: normal;
     font-weight: 400;
 }
+
+.main-result {
+    background-color: rgba(237, 244, 250, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-result__container {
+    width: 73%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.main-result__icon-container {
+    display: grid;
+    grid-template-columns: 10% 1fr;
+    grid-gap: 20px;
+}
+
+.main-result__h3 {
+    margin-top: 0;
+}
