@@ -212,3 +212,56 @@
 .main-result__h3 {
     margin-top: 0;
 }
+
+.footer {
+    background-color: rgba(237, 244, 250, 1);
+
+}
+
+.footer__container {
+    border: #242A56 1px solid;
+    width: 73%;
+    display: flex;
+}
+
+.footer__container-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__innercontainer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+
+}
+
+.footer__text {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.footer__text-grey {
+    color: #8B9BAB;
+}
+
+.footer__text-blue {
+    text-decoration-line: underline;
+    color: #376FFF;
+}
+
+.footer__text-dark {
+    color: #393A56;
+}
+
+.text-blue {
+    padding-top: 35px;
+}
+
+.footer__text-bottom {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    color: #8B9BAB;
+}
