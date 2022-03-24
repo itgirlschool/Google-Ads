@@ -291,7 +291,7 @@
     font-weight: 700;
 }
 
-.main-settings__h3_thin {
+.main-settings__h3-thin {
     font-size: 26px;
     font-weight: 400;
     margin-top: 20px;
@@ -303,12 +303,12 @@
     margin-bottom: 20px;
 }
 
-.main-settings__h2_margin {
+.main-settings__h2-margin {
     margin-top: 20px;
     margin-bottom: 10px;
 }
 
-.main-settings__h3_margin {
+.main-settings__h3-margin {
     margin-top: 40px;
 }
 
