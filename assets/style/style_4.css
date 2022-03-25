@@ -213,7 +213,7 @@ body {
 
 .main-difference__inner-container div {
     border-top: 1px solid #8B9BAB;
-    width: 33%;
+    width: 30%;
 }
 
 .main-difference {
@@ -227,8 +227,31 @@ body {
 
 .main-difference__container-small {
     border: solid black;
+}
 
+/*FAQ*/
 
-    /*FAA*/
+.question {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-    /*clients-trust*/
+.question__container {
+    width: 73%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.question__inner-container {
+    display: flex;
+}
+
+.question__img {
+    max-width: 55%;
+
+}
+
+/*clients-trust*/
