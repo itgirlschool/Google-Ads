@@ -1,3 +1,8 @@
+body {
+    font-family: Inter, sans-serif;
+    font-style: normal;
+}
+
 /*header*/
 
 .header__text-inner {
@@ -151,6 +156,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 .price__container {
@@ -163,14 +169,66 @@
     background-color: rgba(237, 244, 250, 1)
 }
 
-.tprice__td_bold {
-    font-style: italic;
-}
-
 /*difference*/
 
-/*FAA*/
 
-/*clients-trust*/
 
-/*footer*/
+.main-difference__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.main-difference__text,
+.main-difference__inner-container {
+    margin-top: 20px;
+}
+
+.main-difference__inner-container {
+    width: 73%;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.main-difference__container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+.main-difference__heading {
+    max-width: 70%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.main-difference__inner-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
+
+.main-difference__inner-container div {
+    border-top: 1px solid #8B9BAB;
+    width: 33%;
+}
+
+.main-difference {
+    background-color: #393A56;
+    color: white;
+}
+
+.main-difference__inner-container img {
+    padding: 20px;
+}
+
+.main-difference__container-small {
+    border: solid black;
+
+
+    /*FAA*/
+
+    /*clients-trust*/
