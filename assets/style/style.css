@@ -130,7 +130,7 @@
 }
 
 .price__container-table-first {
-    padding-top: 57%;
+    padding-top: 56%;
     font-family: Inter;
     font-style: normal;
     font-weight: 700;
@@ -143,7 +143,45 @@
 
 }
 
+.price__button {
+    width: 60%;
+    height: 40px;
+    background: #376FFF;
+    border-radius: 12px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
+.price-text {
+    display: flex;
+    justify-content: flex-start;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    color: #393A56;
+    background: #EDF4FA;
+    border: 1px solid #C1D3DE;
+    border-radius: 12px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.price__icon {
+    margin-right: 20px;
+}
 
 /*about-ads*/
 .about-ads__cards {
