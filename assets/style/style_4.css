@@ -1,0 +1,125 @@
+/*header*/
+
+.header__text-inner {
+    width: 60%;
+}
+
+.header {
+    height: 496px;
+    background-image: url(/assets/images/page4/Rectangle\ 4.png);
+    width: 100%;
+    max-width: 100%;
+}
+
+.header__nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    padding: 25px;
+    font-size: 16px;
+    font-family: Inter, sans-serif;
+}
+
+.link:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.header__btn {
+    padding: 15px;
+    margin: 10px;
+    color: white;
+    background-color: Transparent;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    border: 1px solid #C1D3DE;
+    box-sizing: border-box;
+    border-radius: 12px;
+}
+
+.header__btn-clr {
+    color: #C1D3DE;
+}
+
+.header__text {
+    color: white;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+.header__h1 {
+    font-size: 68px;
+    font-weight: 900;
+}
+
+.header__p {
+    font-size: 20px;
+    font-family: Roboto;
+    font-style: normal;
+}
+
+/*search*/
+.info {
+    background-color: rgba(237, 244, 250, 1);
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    color: #242A56;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.info__logo {
+    background-color: rgba(251, 247, 241, 1);
+    display: flex;
+    justify-content: space-around;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    padding: 10px 10px 10px 10px;
+}
+
+.info__container {
+    width: 73%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info__text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.clients__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.containericon,
+.about-ads {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.h1 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+}
