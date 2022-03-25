@@ -1,5 +1,6 @@
 .header-main,
-.form {
+.form,
+.main-princ__container {
     width: 73%;
     margin: 0 auto;
     /* border: 1px solid blue; */
@@ -135,7 +136,7 @@
 }
 
 .header__vector-img {
-    margin-left: 10px;
+    margin-left: 5px;
 }
 
 .header__checkbox {
@@ -164,4 +165,37 @@
 .header__checkbox-img {
     margin-left: 10px;
     margin-right: 10px;
+}
+
+
+.main-princ {
+    background-color: #EDF4FA;
+}
+
+.main-princ__container {
+    display: flex;
+    padding-top: 80px;
+}
+
+.main-princ__h3 {
+    font-size: 38px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+}
+
+.R-400 {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.main-princ-p2 {
+    background-color: #FBF7F1;
+    border: 1px solid #C1D3DE;
+    border-radius: 12px;
+    padding: 30px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
