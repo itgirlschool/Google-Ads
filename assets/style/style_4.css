@@ -125,3 +125,19 @@
 }
 
 /*How we work*/
+
+.how-we-work__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.how-we-work__text {
+    display: flex;
+    border-top: solid rgba(193, 211, 222, 1);
+}
+
+.how-we-work__logo {
+    padding-right: 20px;
+}
