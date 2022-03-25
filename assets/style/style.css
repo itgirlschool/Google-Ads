@@ -76,6 +76,27 @@
 /*price*/
 .price {
     background-color: rgba(237, 244, 250, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.price__container-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.price__container-tables {
+    display: grid;
+    grid-template-columns: 30% 35% 35%;
+    grid-gap: 20px
+}
+
+.price__line {
+    border-top: rgba(193, 211, 222, 1) solid;
+
 }
 
 
