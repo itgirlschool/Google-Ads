@@ -1,11 +1,12 @@
-.header-main {
+.header-main,
+.form {
     width: 73%;
     margin: 0 auto;
     /* border: 1px solid blue; */
 }
 
 .header {
-    height: 896px;
+    height: 700px;
     background-image: url(/assets/images/page6/head_page6.png);
     width: 100%;
     max-width: 100%;
@@ -30,6 +31,7 @@
 
 .link:hover {
     text-decoration: underline;
+    color: white
 }
 
 .header__btn {
@@ -48,6 +50,118 @@
     margin-right: 30px;
 }
 
+
+
 .header__text {
     color: white;
+}
+
+.header-text__container {
+    width: 90%;
+    max-width: 90%;
+    padding-top: 60px;
+}
+
+.header-text__h2 {
+    font-weight: 900;
+    font-size: 38px;
+    font-family: 'Inter', sans-serif;
+}
+
+.header-text__h1 {
+    font-weight: 900;
+    font-size: 68px;
+    font-family: 'Inter', sans-serif;
+}
+
+.header-text__p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.header-main {
+    display: flex;
+    color: white;
+    padding-top: 80px;
+
+}
+
+
+
+.header__form-container {
+    background-color: #376FFF;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 45px;
+    padding-top: 60px;
+    padding-bottom: 45px;
+}
+
+.header__input {
+    background: #376FFF;
+    border: 1px solid #C1D3DE;
+    border-radius: 5px;
+    height: 30px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #C1D3DE;
+    width: 90%;
+}
+
+.header__input-big {
+    height: 120px;
+}
+
+.header__h3 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    color: #FFFFFF;
+}
+
+.header__button {
+    background: #FFFFFF;
+    border-radius: 12px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    color: #376FFF;
+    width: 208px;
+    height: 60px;
+}
+
+.header__vector-img {
+    margin-left: 10px;
+}
+
+.header__checkbox {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    color: #C1D3DE;
+}
+
+.header__link {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    color: #C1D3DE;
+}
+
+.header__container-for-button {
+    display: flex;
+    align-items: center;
+}
+
+.header__div-for-input {
+    margin-bottom: 10px;
+}
+
+.header__checkbox-img {
+    margin-left: 10px;
+    margin-right: 10px;
 }
