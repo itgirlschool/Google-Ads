@@ -122,6 +122,8 @@
     font-family: Inter;
     font-style: normal;
     font-weight: 900;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 /*How we work*/
@@ -131,6 +133,7 @@
     flex-direction: column;
     align-items: center;
     margin-top: 30px;
+    margin-bottom: 50px;
 }
 
 .how-we-work__text {
@@ -143,6 +146,26 @@
 }
 
 /*price*/
+
+.price {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.price__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.price__table_blue {
+    background-color: rgba(237, 244, 250, 1)
+}
+
+.tprice__td_bold {
+    font-style: italic;
+}
 
 /*difference*/
 
