@@ -1,6 +1,7 @@
 .header-main,
 .form,
-.main-princ__container {
+.main-princ__container,
+.main-prognose__container {
     width: 73%;
     margin: 0 auto;
     /* border: 1px solid blue; */
@@ -198,4 +199,22 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+
+
+
+.main-prognose {
+    background-color: #393A56;
+}
+.main-prognose__container {
+    color: white;
+}
+.main-prognose__inner-container {
+    display: flex;
+    
+}
+.main-prognose__col {
+    border-top: 1px solid #8B9BAB;
 }
