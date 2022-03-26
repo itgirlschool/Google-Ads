@@ -1,0 +1,222 @@
+body {
+    font-family: Inter, sans-serif;
+    font-style: normal;
+}
+
+
+.header__text {
+    max-width: 73%;
+    margin: 0 auto;
+}
+
+.header__text-inner {
+    width: 50%;
+}
+
+.header {
+    height: 400px;
+    background-image: url(/assets/images/page3/header.png);
+    width: 100%;
+    max-width: 100%;
+}
+
+
+
+.header__nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    padding: 25px;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+}
+
+.link:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.header__btn {
+    padding: 15px;
+    margin: 10px;
+    color: white;
+    background-color: Transparent;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    border: 1px solid #C1D3DE;
+    box-sizing: border-box;
+    border-radius: 12px;
+}
+
+.header__btn-clr {
+    color: #C1D3DE;
+}
+
+.header__text {
+    color: white;
+    margin-top: 90px;
+}
+
+.header__h1 {
+    font-size: 68px;
+    font-weight: 900;
+}
+
+.header__p {
+    font-size: 20px;
+}
+
+
+
+.footer {
+    background-color: rgba(237, 244, 250, 1);
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer__container {
+    width: 73%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 20px;
+    align-self: center;
+}
+
+.footer__container-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__innercontainer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+}
+
+.footer__text {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.footer__text-grey {
+    color: #8B9BAB;
+}
+
+.footer__text-blue {
+    text-decoration-line: underline;
+    color: #376FFF;
+}
+
+.footer__text-dark {
+    color: #393A56;
+}
+
+.text-blue {
+    padding-top: 35px;
+}
+
+.footer__text-bottom {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    color: #8B9BAB;
+}
+
+.footer__img {
+    border-radius: 10px;
+}
+
+.footer__form {
+    background-color: #376FFF;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 60px;
+    padding-top: 60px;
+
+}
+
+.footer__input {
+    background: #376FFF;
+    border: 2px solid #C1D3DE;
+    border-radius: 12px;
+    height: 30px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #C1D3DE;
+    width: 90%;
+
+}
+
+.footer__input_big {
+    height: 120px;
+    padding-top: 10px;
+}
+
+.footer__header {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    color: #FFFFFF;
+}
+
+.footer__form-text {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.footer__button {
+    background: #FFFFFF;
+    border-radius: 12px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    color: #376FFF;
+    width: 208px;
+    height: 60px;
+}
+
+.footer__checkobox {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    color: #C1D3DE;
+}
+
+
+.footer__link {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    color: #C1D3DE;
+}
+
+.footer__container-for-button {
+    display: flex;
+    align-items: center;
+
+
+}
+
+.footer__div-for-input {
+    margin-bottom: 10px;
+}
+
+.footer_checkbox-img {
+    margin-left: 10px;
+    margin-right: 10px;
+}
