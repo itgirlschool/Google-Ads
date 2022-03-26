@@ -492,6 +492,7 @@ body {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
+    margin-top: 20px;
 }
 
 .footer__text {
@@ -608,7 +609,7 @@ body {
     margin-bottom: 10px;
 }
 
-.footer_checkbox-img {
+.footer__checkbox-img {
     margin-left: 10px;
     margin-right: 10px;
 }
