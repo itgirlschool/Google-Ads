@@ -206,19 +206,67 @@
 
 
 
-.main-prognose {
+.main-prognose-bg {
     background-color: #393A56;
 }
+
 .main-prognose__container {
     color: white;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
+
+.main-prognose__h4 {
+    max-width: 90%;
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: 900;
+    font-family: 'Inter', sans-serif;
+}
+
 .main-prognose__inner-container {
     display: flex;
-    
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-bottom: 40px;
 }
-.main-prognose__col {
+
+.col1,
+.col2 {
     border-top: 1px solid #8B9BAB;
 }
+
+.col2 {
+margin-left: 90px;
+}
+
+.main-prognose__header3 {
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+}
+.main-prognose__text {
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+}
+.main-prognose-btn {
+    color: #FFFFFF;
+    background-color: #376FFF;
+    border-radius: 12px;
+    font-family: 'Inter', sans-serif;
+    font-style: bold;
+    font-weight: 700;
+    width: 279px;
+    height: 60px;
+
+}
+
+
+
+
+
 
 
 
@@ -229,10 +277,7 @@
 
 
 
-
-
-
-
+/*main-trust*/
 .main-trust__images img {
     /* margin: 10px; */
     max-width: 180px;
@@ -303,7 +348,7 @@
 }
 
 
-
+/*Здесь начинаются стили для футера*/
 .footer {
     background-color: rgba(237, 244, 250, 1);
     display: flex;
