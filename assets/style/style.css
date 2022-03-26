@@ -394,6 +394,79 @@
 }
 
 
+
+/*main-trust*/
+
+
+.main-trust__images img {
+    /* margin: 10px; */
+    max-width: 180px;
+}
+
+.main-trust__h2 {
+    text-align: center;
+}
+
+.main-trust__images {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+
+}
+
+.main-trust__telephon-container {
+    display: flex;
+    background-color: #376FFF;
+    border-radius: 15px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-trust__telephon {
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+    text-decoration: underline;
+}
+
+.main-trust__h2-white {
+    font-size: 28px;
+    font-weight: 900;
+    color: white;
+}
+
+.main-trust__p {
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.main-trust__telephon-container div {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.main-trust__telephon-text {
+    max-width: 40%;
+}
+
+.main-trust__container {
+    width: 73%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-trust {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 /*Здесь начинаются стили для футера*/
 
 .footer {
