@@ -266,17 +266,34 @@ margin-left: 90px;
 }
 
 
-
-
-
-
-
+/*our-works*/
 
 .our-works-bg {
     background-color: #EDF4FA;
 }
-
-
+.our-works {
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+.our-works-ph {
+    border-radius: 10px;
+    max-width: 100%;
+}
+.our-works__h5 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    text-align: center;
+} 
+.our-works__text {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+.our-works-photos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 25px;
+}
 
 
 /*main-trust*/
