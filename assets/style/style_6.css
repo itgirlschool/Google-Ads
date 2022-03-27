@@ -2,7 +2,9 @@
 .form,
 .main-princ__container,
 .main-prognose__container,
-.our-works {
+.our-works,
+.main-trust__container,
+.footer__container {
     width: 73%;
     margin: 0 auto;
     /* border: 1px solid blue; */
@@ -278,6 +280,10 @@ margin-left: 90px;
 
 
 /*main-trust*/
+.main-trust__container {
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
 .main-trust__images img {
     /* margin: 10px; */
     max-width: 180px;
@@ -285,6 +291,8 @@ margin-left: 90px;
 
 .main-trust__h2 {
     text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
 }
 
 .main-trust__images {
@@ -333,22 +341,7 @@ margin-left: 90px;
     max-width: 40%;
 }
 
-.main-trust__container {
-    width: 73%;
-    flex-direction: column;
-    align-items: center;
-}
 
-.main-trust {
-    margin-top: 40px;
-    margin-bottom: 40px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-
-/*Здесь начинаются стили для футера*/
 .footer {
     background-color: rgba(237, 244, 250, 1);
     display: flex;
@@ -374,6 +367,7 @@ margin-left: 90px;
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
+    margin-top: 20px;
 }
 
 .footer__text {
@@ -434,7 +428,7 @@ margin-left: 90px;
 
 }
 
-.footer__input_big {
+.footer__input-big {
     height: 120px;
     padding-top: 10px;
 }
@@ -482,13 +476,15 @@ margin-left: 90px;
 .footer__container-for-button {
     display: flex;
     align-items: center;
+
+
 }
 
 .footer__div-for-input {
     margin-bottom: 10px;
 }
 
-.footer_checkbox-img {
+.footer__checkbox-img {
     margin-left: 10px;
     margin-right: 10px;
 }
