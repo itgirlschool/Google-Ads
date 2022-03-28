@@ -42,19 +42,19 @@
     <footer class="footer">
         <div class="footer__container">
             <div class="footer__container-left">
-                <div>
+                <div class="footer__inner-container-left">
                     <img src="/assets/images/page1/footer-logo.png" alt="logo">
                     <div class="footer__innercontainer">
                         <div class="footer__text">
                             <p class="footer__text-grey">Телефон</p>
-                            <p class="footer__text-blue">+001 987-654-3210</p>
+                            <a href="#" class="footer__text-blue">+001 987-654-3210</a>
                         </div>
-                        <div class="footer__text">
-                            <p class="footer__text-blue text-blue">+001 987-654-3210</p>
+                        <div class="footer__text text-blue">
+                            <a href="#" class="footer__text-blue ">+001 987-654-3210</a>
                         </div>
                         <div class="footer__text">
                             <p class="footer__text-grey">Email</p>
-                            <p class="footer__text-blue">info@example.com</p>
+                            <a href="#" class="footer__text-blue">info@example.com</a>
                         </div>
                         <div class="footer__text">
                             <p class="footer__text-grey">Адрес</p>
@@ -64,32 +64,42 @@
                     </div>
                 </div>
                 <img src="/assets/images/page1/footer-map.png" alt="map" class="footer__img">
-                <div>
-                    <p class="footer__text-bottom">SIA OL © Visas tiesības aizsargātas 2021</p>
-                </div>
             </div>
 
             <div class="footer__form">
+
                 <h3 class="footer__header">Есть вопросы?</h3>
+
                 <p class="footer__form-text">Свяжитесь с нами</p>
+
                 <div class="footer__div-for-input"> <input type="text" name="name" value="Имя" class="footer__input">
                 </div>
+
                 <div class="footer__div-for-input"><input type="email" name="email" value="Email" class="footer__input">
                 </div>
+
                 <div class="footer__div-for-input"><input type="tel" name="phone" value="+7 999 999-99-99"
                         class="footer__input"></div>
+
                 <div class="footer__div-for-input"><textarea type="text" name="text"
                         class="footer__input footer__input_big">Ваше сообщение</textarea>
                 </div>
                 <div class="footer__container-for-button">
                     <button class="footer__button">Отправить<img src="/assets/images/page1/footer-vector.svg"></button>
-                    <img src="/assets/images/page1/Checkbox.png" class="footer_checkbox-img" alt="img">
+                    <input type="checkbox" class="footer__checkbox-button" id="checkbox" name="checkbox" value="yes">
+                    <label for="checkbox" class="label"></label>
+
                     <div class="footer__checkobox">Я прочитал и принимаю условия <a href="#"
                             class="footer__link">пользовательского
                             соглашения</a></div>
+
                 </div>
             </div>
+            <div class="footer__div-for-text-bottom">
+                <p class="footer__text-bottom">SIA OL © Visas tiesības aizsargātas 2021</p>
+            </div>
     </footer>
+
 </body>
 
 </html>
