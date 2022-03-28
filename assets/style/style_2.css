@@ -54,7 +54,7 @@ body {
     padding: 15px;
     margin: 10px;
     color: white;
-    background-color: Transparent;
+    background-color: transparent;
     color: white;
     font-family: 'Inter', sans-serif;
     border: 1px solid #C1D3DE;
@@ -221,7 +221,7 @@ body {
     padding: 20px;
 }
 
-.main-setings__parameters {
+.main-settings__parameters {
     display: flex;
     justify-content: space-between;
 }
@@ -253,6 +253,9 @@ body {
 
 .main-settings__inner {
     display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
 }
 
 .main-settings__h2 {
@@ -278,7 +281,7 @@ body {
 }
 
 .main-settings__h2-margin {
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: 10px;
 }
 
@@ -288,6 +291,19 @@ body {
 
 .main-settings img {
     margin-right: 10px;
+}
+
+.main-settings__item {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.main-settings__inner-2 {
+    width: 33%;
+    display: flex;
+    margin-bottom: 15px;
+    margin-top: 5px;
 }
 
 /* Центрирование заголовков */
