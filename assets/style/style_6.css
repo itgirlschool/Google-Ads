@@ -115,6 +115,7 @@
     font-size: 16px;
     color: #C1D3DE;
     width: 90%;
+    padding: 7px;
 }
 .header__input,
 .footer__input:focus {outline: 0;}
@@ -334,6 +335,7 @@ margin-left: 90px;
     font-weight: 700;
     color: white;
     text-decoration: underline;
+    cursor: pointer;
 }
 
 .main-trust__h2-white {
@@ -399,6 +401,7 @@ margin-left: 90px;
 .footer__text-blue {
     text-decoration-line: underline;
     color: #376FFF;
+    cursor: pointer;
 }
 
 .footer__text-dark {
@@ -441,6 +444,7 @@ margin-left: 90px;
     font-size: 16px;
     color: #C1D3DE;
     width: 90%;
+    padding: 5px;
 
 }
 
@@ -473,7 +477,9 @@ margin-left: 90px;
     width: 208px;
     height: 60px;
 }
-
+.footer-vector {
+    padding: 5px;
+}
 .footer__checkobox {
     font-family: Inter;
     font-style: normal;
