@@ -89,6 +89,19 @@
     font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: 400;
+    border: 1px solid #C1D3DE;
+    border-radius: 12px;
+    padding-left: 20px;
+    padding-right: 15px;
+}
+
+.info__logo-img {
+    margin-right: 20px;
+}
+
+.info__img {
+    width: 50%;
+    max-width: 50%;
 }
 
 .info__container {
@@ -109,6 +122,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .icon {
@@ -130,6 +145,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+}
+
+.about-ads {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
 }
 
 .text {
