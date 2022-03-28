@@ -485,8 +485,8 @@
 .footer__container {
     width: 73%;
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-gap: 20px;
+    grid-template-columns: 50% 49%;
+    grid-gap: 10px;
     align-self: center;
 }
 
@@ -521,7 +521,10 @@
 }
 
 .text-blue {
-    padding-top: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-bottom: 18px;
 }
 
 .footer__text-bottom {
@@ -533,6 +536,7 @@
 
 .footer__img {
     border-radius: 10px;
+    margin-top: 30px;
 }
 
 .footer__form {
@@ -540,8 +544,9 @@
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    padding-left: 60px;
+    padding-left: 40px;
     padding-top: 60px;
+    padding-bottom: 20px;
 
 }
 
@@ -592,7 +597,13 @@
     color: #376FFF;
     width: 208px;
     height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: none;
+    margin-right: 5px;
 }
+
 
 .footer__checkobox {
     font-family: Inter, sans-serif;
@@ -623,6 +634,7 @@
 .footer__checkbox-button {
     margin-left: 10px;
     margin-right: 10px;
+
 }
 
 .footer__checkbox-button {
