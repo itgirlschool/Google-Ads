@@ -118,7 +118,8 @@
     padding: 7px;
 }
 .header__input,
-.footer__input:focus {outline: 0;}
+.footer__input,
+.footer__button:focus {outline: 0;}
 
 .header__input-big {
     height: 120px;
@@ -444,7 +445,7 @@ margin-left: 90px;
     font-size: 16px;
     color: #C1D3DE;
     width: 90%;
-    padding: 5px;
+    padding: 10px;
 
 }
 
