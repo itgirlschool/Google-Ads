@@ -338,6 +338,7 @@
     font-size: 16px;
     color: #C1D3DE;
     width: 90%;
+    padding-left: 10px;
 }
 .footer__input:focus {outline: 0;}
 
@@ -370,7 +371,9 @@
     width: 208px;
     height: 60px;
 }
-
+.footer-vector {
+    padding-left: 5px;
+}
 .footer__checkobox {
     font-family: Inter;
     font-style: normal;
