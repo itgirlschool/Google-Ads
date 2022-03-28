@@ -43,7 +43,7 @@ body {
     color: white;
     background-color: Transparent;
     color: white;
-    font-family: 'Inter', sans-serif;
+    font-family: Inter, sans-serif;
     border: 1px solid #C1D3DE;
     box-sizing: border-box;
     border-radius: 12px;
@@ -66,14 +66,14 @@ body {
 
 .header__p {
     font-size: 20px;
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-style: normal;
 }
 
 /*search*/
 .info {
     background-color: rgba(237, 244, 250, 1);
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: 700;
     color: #242A56;
@@ -88,7 +88,7 @@ body {
     background-color: rgba(251, 247, 241, 1);
     display: flex;
     justify-content: space-around;
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: 400;
     padding: 10px 10px 10px 10px;
@@ -104,7 +104,7 @@ body {
 }
 
 .info__text {
-    font-family: 'Roboto';
+    font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: 400;
 }
@@ -127,7 +127,7 @@ body {
 
 
 .h1 {
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: 900;
     padding-top: 20px;
@@ -190,7 +190,7 @@ body {
 
 .main-difference__inner-container {
     width: 73%;
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: 400;
 }
@@ -346,8 +346,8 @@ body {
 .footer__container {
     width: 73%;
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-gap: 20px;
+    grid-template-columns: 50% 49%;
+    grid-gap: 10px;
     align-self: center;
 }
 
@@ -363,7 +363,7 @@ body {
 }
 
 .footer__text {
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: 600;
 }
@@ -382,11 +382,14 @@ body {
 }
 
 .text-blue {
-    padding-top: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-bottom: 18px;
 }
 
 .footer__text-bottom {
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: 400;
     color: #8B9BAB;
@@ -394,6 +397,7 @@ body {
 
 .footer__img {
     border-radius: 10px;
+    margin-top: 30px;
 }
 
 .footer__form {
@@ -401,8 +405,9 @@ body {
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    padding-left: 60px;
+    padding-left: 40px;
     padding-top: 60px;
+    padding-bottom: 20px;
 
 }
 
@@ -411,13 +416,18 @@ body {
     border: 2px solid #C1D3DE;
     border-radius: 12px;
     height: 30px;
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     color: #C1D3DE;
     width: 90%;
+    padding-left: 10px;
 
+}
+
+.footer__input:focus {
+    outline: 0;
 }
 
 .footer__input_big {
@@ -426,14 +436,14 @@ body {
 }
 
 .footer__header {
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: 900;
     color: #FFFFFF;
 }
 
 .footer__form-text {
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: 400;
     color: #FFFFFF;
@@ -442,16 +452,22 @@ body {
 .footer__button {
     background: #FFFFFF;
     border-radius: 12px;
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: 700;
     color: #376FFF;
     width: 208px;
     height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: none;
+    margin-right: 5px;
 }
 
+
 .footer__checkobox {
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: 400;
     color: #C1D3DE;
@@ -459,7 +475,7 @@ body {
 
 
 .footer__link {
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: 400;
     color: #C1D3DE;
@@ -476,7 +492,40 @@ body {
     margin-bottom: 10px;
 }
 
-.footer_checkbox-img {
+.footer__checkbox-button {
     margin-left: 10px;
     margin-right: 10px;
+
+}
+
+.footer__checkbox-button {
+    display: none;
+}
+
+.footer__checkbox-button+label {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+}
+
+.footer__checkbox-button+label::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 2px solid #C1D3DE;
+    background: #376FFF;
+    border-radius: 4px;
+    margin-right: 0.5em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+}
+
+.footer__checkbox-button:checked+label::before {
+    border-color: #C1D3DE;
+    background-color: #0b76ef;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
 }

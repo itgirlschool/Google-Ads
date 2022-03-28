@@ -21,15 +21,15 @@
     <header class="header">
         <div class="header__nav-container">
             <div class="header__logo">
-                <img src="assets/images/page2/logo.png" alt="logo">
+                <img class="header__img" src="assets/images/page2/logo.png" alt="logo">
             </div>
             <div class="header__nav">
-                <a class="link" href="/index_6.html">Главная</a>
-                <a class="link" href="/index_5.html">О нас</a>
-                <a class="link" href="/index.html">Google Adwords</a>
-                <a class="link" href="/index_2.html">SMM</a>
-                <a class="link" href="/index_4.html">SEO</a>
-                <a class="link" href="/index_3.html">Контакты</a>
+                <a class="header__link" href="/index_6.html">Главная</a>
+                <a class="header__link" href="/index_5.html">О нас</a>
+                <a class="header__link" href="/index.html">Google Adwords</a>
+                <a class="header__link" href="/index_2.html">SMM</a>
+                <a class="header__link" href="/index_4.html">SEO</a>
+                <a class="header__link" href="/index_3.html">Контакты</a>
                 <button class="header__btn">Свяжитесь с нами</button>
                 <button class="header__btn header__btn-clr">LV</button>
             </div>
@@ -43,7 +43,6 @@
     </header>
 
     <main>
-
         <section class="main-about">
             <div class="main-about__container">
                 <img src="/assets/images/page2/main_about.png" alt="main-about">
@@ -189,8 +188,9 @@
         <section class="main-target">
             <h2 class="main-target__h2 h2-bold-900">Таргетированная реклама</h2>
             <div class="main-target__container">
-                <div>
-                    <h3>Специалисты Ora обеспечат точное попадание в вашу целевую аудиторию и максимальный результат
+                <div class="main-target__text">
+                    <h3 class="main-target__h3">Специалисты Ora обеспечат точное попадание в вашу целевую аудиторию и
+                        максимальный результат
                         рекламы.
                     </h3>
                     <p class="main-target__text">Мы предлагаем помощь каждому клиенту, желающему воспользоваться
@@ -248,71 +248,113 @@
                     настройки таргетинга мы
                     будем задавать множество
                     определенных параметров:</h3>
-                <div class="main-setings__parameters">
-                    <div><img src="/assets/images/page2/done_icon.png" alt="done">место проживания</div>
-                    <div>
-                        <div><img src="/assets/images/page2/done_icon.png" alt="done"><span>возраст</span></div>
-                        <div><img src="/assets/images/page2/done_icon.png" alt="done"><span>пол</span></div>
-                        <div><img src="/assets/images/page2/done_icon.png" alt="done"><span>язык</span></div>
-                        <div><img src="/assets/images/page2/done_icon.png" alt="done"><span>семейное положние</span>
+                <div class="main-settings__parameters">
+                    <div class="main-settings__inner">
+                        <div class="main-settings__item"><img src="/assets/images/page2/done_icon.png" alt="done">
+                            <div>место
+                                проживания</div>
                         </div>
                     </div>
-                    <div>
-                        <div><img src="/assets/images/page2/done_icon.png" alt="done"><span>предпочтения</span></div>
-                        <div><img src="/assets/images/page2/done_icon.png" alt="done"><span>события из жизни</span>
+                    <div class="main-settings__inner">
+                        <div class="main-settings__item">
+                            <img src="/assets/images/page2/done_icon.png" alt="done">
+                            <div>возраст</div>
                         </div>
-                        <div><img src="/assets/images/page2/done_icon.png" alt="done"><span>сфера деятельности</span>
+                        <div class="main-settings__item">
+                            <img src="/assets/images/page2/done_icon.png" alt="done">
+                            <div>пол</div>
                         </div>
-                        <div><img src="/assets/images/page2/done_icon.png" alt="done"><span>хобби и интересы</span>
+                        <div class="main-settings__item">
+                            <img src="/assets/images/page2/done_icon.png" alt="done">
+                            <div>язык</div>
+                        </div>
+                        <div class="main-settings__item">
+                            <img src="/assets/images/page2/done_icon.png" alt="done">
+                            <div>семейное положние</div>
                         </div>
                     </div>
-                    <div>
-                        <div><img src="/assets/images/page2/done_icon.png" alt="done"><span>образ жизни</span></div>
-                        <div><img src="/assets/images/page2/done_icon.png" alt="done"><span>операционная система</span>
+                    <div class="main-settings__inner">
+                        <div class="main-settings__item">
+                            <img src="/assets/images/page2/done_icon.png" alt="done">
+                            <div>предпочтения</div>
                         </div>
-                        <div><img src="/assets/images/page2/done_icon.png" alt="done"><span>другие параметры</span>
+                        <div class="main-settings__item">
+                            <img src="/assets/images/page2/done_icon.png" alt="done">
+                            <div>события из жизни</div>
+                        </div>
+                        <div class="main-settings__item">
+                            <img src="/assets/images/page2/done_icon.png" alt="done">
+                            <div>сфера деятельности</div>
+                        </div>
+                        <div class="main-settings__item">
+                            <img src="/assets/images/page2/done_icon.png" alt="done">
+                            <div>хобби и интересы</div>
+                        </div>
+                    </div>
+                    <div class="main-settings__inner">
+                        <div class="main-settings__item">
+                            <div><img src="/assets/images/page2/done_icon.png" alt="done">
+                            </div>
+                            <div>образ жизни</div>
+                        </div>
+                        <div class="main-settings__item">
+                            <img src="/assets/images/page2/done_icon.png" alt="done">
+                            <div>операционная система</div>
+                        </div>
+                        <div class="main-settings__item">
+                            <img src="/assets/images/page2/done_icon.png" alt="done">
+                            <div>другие параметры</div>
                         </div>
                     </div>
                 </div>
                 <h2 class="main-settings__h2 main-settings__h2-margin">Настройка рекламы по базе клиентов и похожей
                     аудитории</h2>
-                <p>Пожалуй, данный вид рекламы является самым эффективным с точки зрения повторных покупок или сделок.
-                    Как это работает? Всё просто. За время работы Вашего бизнеса у Вас собирается информация о клиентах
-                    (их имена, номера телефонов, e-mail и тд.). Всю эту информацию можно загрузить в рекламный кабинет
+                <p class="main-settings__p">Пожалуй, данный вид рекламы является самым эффективным с точки зрения
+                    повторных покупок или
+                    сделок.
+                    Как это работает? Всё просто. За время работы Вашего бизнеса у Вас собирается информация о
+                    клиентах
+                    (их имена, номера телефонов, e-mail и тд.). Всю эту информацию можно загрузить в рекламный
+                    кабинет
                     Facebook, сформировать аудиторию и запускать по ней рекламу.</p>
-                <h3 class="main-settings__h3 main-settings__h3-margin">С теоретической точки зрения, мы можем выделить 3
+                <h3 class="main-settings__h3 main-settings__h3-margin">С теоретической точки зрения, мы можем
+                    выделить 3
                     цели для запуска рекламы
                     по базе клиентов:</h3>
                 <div class="main-settings__aim">
-                    <div class="main-settings__inner">
+                    <div class="main-settings__inner-2">
                         <div><img src="/assets/images/page2/done_icon.png" alt="done"></div>
                         <div> Ретаргет (ремаркетинг) с целью
                             допродажи</div>
                     </div>
-                    <div class="main-settings__inner">
+                    <div class="main-settings__inner-2">
                         <div><img src="/assets/images/page2/done_icon.png" alt="done"></div>
                         <div> Таргет с целью подписать на Ваши
                             социальные сети</div>
                     </div>
-                    <div class="main-settings__inner">
+                    <div class="main-settings__inner-2">
                         <div><img src="/assets/images/page2/done_icon.png" alt="done"></div>
                         <div> Создание похожей целевой
                             аудитории с функцией LTV (работа над привлечением и удержанием клиентов)</div>
                     </div>
                 </div>
-                <p>Со своей стороны, мы рекомендуем запускать ремаркетинг на данную аудиторию. Для Ваших клиентов будет
-                    актуально получать информацию о новых товарах, акциях, грядущих мероприятиях, всё то, что будем им
+                <p>Со своей стороны, мы рекомендуем запускать ремаркетинг на данную аудиторию. Для Ваших клиентов
+                    будет
+                    актуально получать информацию о новых товарах, акциях, грядущих мероприятиях, всё то, что будем
+                    им
                     ценно и будет мотивировать на дальнейшее сотрудничество с Вами.</p>
                 <h3 class="main-settings__h3-thin">Дополнительным бонусом является то, что данную аудиторию можно
                     расширить. Каким образом?
                     Рассказываем. В Facebook есть возможность создавать «похожие аудитории».</h3>
-
                 <div class="main-settings__down">
                     <p class="main-settings__p-bold">Пример:</p>
-                    <p class="main-settings__p">За основу мы берем Вашу базу клиентов и формируем аудиторию. Далее мы
+                    <p class="main-settings__p">За основу мы берем Вашу базу клиентов и формируем аудиторию. Далее
+                        мы
                         создаем “похожую аудиторию”
-                        – алгоритмы социальной сети сами будут искать людей, которые по поведенческим характеристикам
-                        будут максимально похожи на Вашу базу клиентов. Таким образом, мы получаете практически со 100%
+                        – алгоритмы социальной сети сами будут искать людей, которые по поведенческим
+                        характеристикам
+                        будут максимально похожи на Вашу базу клиентов. Таким образом, мы получаете практически со
+                        100%
                         вероятностью “клонов” Ваших клиентов, на которых можно таргетировать рекламу в Facebook и
                         Instagram, и, скорее всего, они отреагируют на Ваше рекламное сообщение.</p>
                 </div>
@@ -398,42 +440,34 @@
                         <tr>
                             <th scope="row"><img src="/assets/images/page2/plus_icon.png" alt="plus_icon"></th>
                             <td class="main-selest__table-bold">Вовлеченность.</td>
-
                         </tr>
                         <tr>
                             <th scope="row"><img src="/assets/images/page2/plus_icon.png" alt="plus_icon"></th>
                             <td class="main-selest__table-bold">Установки приложения.</td>
-
                         </tr>
                         <tr>
                             <th scope="row"><img src="/assets/images/page2/plus_icon.png" alt="plus_icon"></th>
                             <td class="main-selest__table-bold">Просмотры видео.</td>
-
                         </tr>
                         <tr>
                             <th scope="row"><img src="/assets/images/page2/plus_icon.png" alt="plus_icon"></th>
                             <td class="main-selest__table-bold">Генерация лидов.</td>
-
                         </tr>
                         <tr>
                             <th scope="row"><img src="/assets/images/page2/plus_icon.png" alt="plus_icon"></th>
                             <td class="main-selest__table-bold">Сообщения.</td>
-
                         </tr>
                         <tr>
                             <th scope="row"><img src="/assets/images/page2/plus_icon.png" alt="plus_icon"></th>
                             <td class="main-selest__table-bold">Конверсии.</td>
-
                         </tr>
                         <tr>
                             <th scope="row"><img src="/assets/images/page2/plus_icon.png" alt="plus_icon"></th>
                             <td class="main-selest__table-bold">Продажи товаров из каталога.</td>
-
                         </tr>
                         <tr>
                             <th scope="row"><img src="/assets/images/page2/plus_icon.png" alt="plus_icon"></th>
                             <td class="main-selest__table-bold">Посещения точек.</td>
-
                         </tr>
                     </tbody>
                 </table>
@@ -506,12 +540,8 @@
                     </div>
                     <div class="main-trust__telephon">+371 0000 0000</div>
                 </div>
-
-
             </div>
         </section>
-
-
     </main>
     <footer class="footer">
         <div class="footer__container">

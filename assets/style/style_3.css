@@ -3,7 +3,6 @@ body {
     font-style: normal;
 }
 
-
 .header__text {
     max-width: 73%;
     margin: 0 auto;
@@ -20,8 +19,6 @@ body {
     max-width: 100%;
 }
 
-
-
 .header__nav-container {
     display: flex;
     justify-content: space-between;
@@ -30,7 +27,7 @@ body {
     margin-left: 10px;
 }
 
-.link {
+.header__link {
     text-decoration: none;
     color: white;
     padding: 25px;
@@ -38,7 +35,7 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
-.link:hover {
+.header__link:hover {
     text-decoration: underline;
     color: white;
 }
@@ -47,7 +44,7 @@ body {
     padding: 15px;
     margin: 10px;
     color: white;
-    background-color: Transparent;
+    background-color: transparent;
     color: white;
     font-family: 'Inter', sans-serif;
     border: 1px solid #C1D3DE;
@@ -72,8 +69,6 @@ body {
 .header__p {
     font-size: 20px;
 }
-
-
 
 .footer {
     background-color: rgba(237, 244, 250, 1);
@@ -143,7 +138,6 @@ body {
     flex-direction: column;
     padding-left: 60px;
     padding-top: 60px;
-
 }
 
 .footer__input {
@@ -157,7 +151,6 @@ body {
     font-size: 16px;
     color: #C1D3DE;
     width: 90%;
-
 }
 
 .footer__input_big {
@@ -197,7 +190,6 @@ body {
     color: #C1D3DE;
 }
 
-
 .footer__link {
     font-family: Inter;
     font-style: normal;
@@ -208,8 +200,6 @@ body {
 .footer__container-for-button {
     display: flex;
     align-items: center;
-
-
 }
 
 .footer__div-for-input {
