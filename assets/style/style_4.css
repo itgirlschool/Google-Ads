@@ -1,8 +1,3 @@
-body {
-    font-family: Inter, sans-serif;
-    font-style: normal;
-}
-
 /*header*/
 
 .header__text-inner {
@@ -54,12 +49,14 @@ body {
 }
 
 .header__text {
+    font-family: Inter, sans-serif;
     color: white;
     margin-top: 50px;
     margin-left: 200px;
 }
 
 .header__h1 {
+    font-family: Inter, sans-serif;
     font-size: 68px;
     font-weight: 900;
 }
@@ -71,6 +68,11 @@ body {
 }
 
 /*search*/
+.info__img {
+    width: 50%;
+    max-width: 50%;
+}
+
 .info {
     background-color: rgba(237, 244, 250, 1);
     font-family: Inter, sans-serif;
@@ -136,12 +138,23 @@ body {
 
 /*How we work*/
 
+.how-we-work {
+    display: flex;
+    justify-content: center;
+
+}
+
 .how-we-work__container {
+    width: 73%;
     display: flex;
     flex-direction: column;
-    align-items: center;
     margin-top: 30px;
     margin-bottom: 50px;
+
+}
+
+.how-we-work__header {
+    align-self: center;
 }
 
 .how-we-work__text {
@@ -151,6 +164,11 @@ body {
 
 .how-we-work__logo {
     padding-right: 20px;
+}
+
+.how-we-work__text_bottom {
+    border-bottom: solid rgba(193, 211, 222, 1);
+
 }
 
 /*price*/
@@ -177,6 +195,7 @@ body {
 
 
 .main-difference__container {
+    font-family: Inter, sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -235,6 +254,7 @@ body {
 /*FAQ*/
 
 .question {
+    font-family: Inter, sans-serif;
     margin-top: 50px;
     display: flex;
     flex-direction: column;
@@ -268,6 +288,7 @@ body {
 }
 
 .main-trust__h2 {
+    font-family: Inter, sans-serif;
     text-align: center;
 }
 
@@ -282,6 +303,7 @@ body {
 }
 
 .main-trust__telephon-container {
+    font-family: Inter, sans-serif;
     display: flex;
     background-color: #376FFF;
     border-radius: 15px;
@@ -290,6 +312,7 @@ body {
 }
 
 .main-trust__telephon {
+    font-family: Inter, sans-serif;
     font-size: 50px;
     font-weight: 700;
     color: white;
@@ -297,23 +320,27 @@ body {
 }
 
 .main-trust__h2-white {
+    font-family: Inter, sans-serif;
     font-size: 28px;
     font-weight: 900;
     color: white;
 }
 
 .main-trust__p {
+    font-family: Inter, sans-serif;
     color: white;
     font-size: 18px;
     margin-top: 20px;
 }
 
 .main-trust__telephon-container div {
+    font-family: Inter, sans-serif;
     margin-top: 50px;
     margin-bottom: 50px;
 }
 
 .main-trust__telephon-text {
+    font-family: Inter, sans-serif;
     max-width: 40%;
 }
 
