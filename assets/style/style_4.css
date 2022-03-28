@@ -43,7 +43,7 @@ body {
     color: white;
     background-color: Transparent;
     color: white;
-    font-family: 'Inter', sans-serif;
+    font-family: Inter, sans-serif;
     border: 1px solid #C1D3DE;
     box-sizing: border-box;
     border-radius: 12px;
@@ -66,14 +66,14 @@ body {
 
 .header__p {
     font-size: 20px;
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-style: normal;
 }
 
 /*search*/
 .info {
     background-color: rgba(237, 244, 250, 1);
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: 700;
     color: #242A56;
@@ -88,7 +88,7 @@ body {
     background-color: rgba(251, 247, 241, 1);
     display: flex;
     justify-content: space-around;
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: 400;
     padding: 10px 10px 10px 10px;
@@ -104,7 +104,7 @@ body {
 }
 
 .info__text {
-    font-family: 'Roboto';
+    font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: 400;
 }
@@ -127,7 +127,7 @@ body {
 
 
 .h1 {
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: 900;
     padding-top: 20px;
@@ -190,7 +190,7 @@ body {
 
 .main-difference__inner-container {
     width: 73%;
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: 400;
 }
@@ -363,7 +363,7 @@ body {
 }
 
 .footer__text {
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: 600;
 }
@@ -386,7 +386,7 @@ body {
 }
 
 .footer__text-bottom {
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: 400;
     color: #8B9BAB;
@@ -411,7 +411,7 @@ body {
     border: 2px solid #C1D3DE;
     border-radius: 12px;
     height: 30px;
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -426,14 +426,14 @@ body {
 }
 
 .footer__header {
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: 900;
     color: #FFFFFF;
 }
 
 .footer__form-text {
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: 400;
     color: #FFFFFF;
@@ -442,7 +442,7 @@ body {
 .footer__button {
     background: #FFFFFF;
     border-radius: 12px;
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: 700;
     color: #376FFF;
@@ -451,7 +451,7 @@ body {
 }
 
 .footer__checkobox {
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: 400;
     color: #C1D3DE;
@@ -459,7 +459,7 @@ body {
 
 
 .footer__link {
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: 400;
     color: #C1D3DE;
