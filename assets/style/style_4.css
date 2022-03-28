@@ -181,6 +181,7 @@
 }
 
 .price__container {
+    width: 73%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -190,17 +191,27 @@
     background-color: rgba(237, 244, 250, 1)
 }
 
+
+
 /*difference*/
 
-
+.main-difference {
+    display: flex;
+    justify-content: center;
+}
 
 .main-difference__container {
+    width: 73%;
     font-family: Inter, sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+.main-difference__header {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
 
 .main-difference__text,
 .main-difference__inner-container {
@@ -208,7 +219,7 @@
 }
 
 .main-difference__inner-container {
-    width: 73%;
+
     font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: 400;
