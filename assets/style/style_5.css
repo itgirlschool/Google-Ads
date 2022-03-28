@@ -2,7 +2,8 @@
 .main-about-us__container,
 .why-we,
 .main-numbers,
-.main-trust__container {
+.main-trust__container,
+.footer__container {
     width: 73%;
     margin: 0 auto;
 }
@@ -146,11 +147,6 @@
 }
 
 
-
-
-
-
-
 .main-numbers-bg {
     display: flex;
     align-items: center;
@@ -268,7 +264,6 @@
 }
 
 .footer__container {
-    width: 73%;
     display: grid;
     grid-template-columns: 50% 50%;
     grid-gap: 20px;
@@ -326,15 +321,15 @@
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    padding-left: 60px;
-    padding-top: 60px;
+    padding-left: 50px;
+    padding-top: 50px;
 
 }
 
 .footer__input {
     background: #376FFF;
-    border: 2px solid #C1D3DE;
-    border-radius: 12px;
+    border: 1px solid #C1D3DE;
+    border-radius: 8px;
     height: 30px;
     font-family: Inter;
     font-style: normal;
@@ -342,8 +337,8 @@
     font-size: 16px;
     color: #C1D3DE;
     width: 90%;
-
 }
+.footer__input:focus {outline: 0;}
 
 .footer__input-big {
     height: 120px;
@@ -393,8 +388,6 @@
 .footer__container-for-button {
     display: flex;
     align-items: center;
-
-
 }
 
 .footer__div-for-input {
