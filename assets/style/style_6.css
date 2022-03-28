@@ -116,6 +116,8 @@
     color: #C1D3DE;
     width: 90%;
 }
+.header__input,
+.footer__input:focus {outline: 0;}
 
 .header__input-big {
     height: 120px;
@@ -266,9 +268,6 @@ margin-left: 90px;
 
 }
 
-
-/*our-works*/
-
 .our-works-bg {
     background-color: #EDF4FA;
 }
@@ -298,14 +297,11 @@ margin-left: 90px;
     gap: 25px;
 }
 
-
-/*main-trust*/
 .main-trust__container {
     padding-top: 40px;
     padding-bottom: 60px;
 }
 .main-trust__images img {
-    /* margin: 10px; */
     max-width: 180px;
 }
 
@@ -436,8 +432,8 @@ margin-left: 90px;
 
 .footer__input {
     background: #376FFF;
-    border: 2px solid #C1D3DE;
-    border-radius: 12px;
+    border: 1px solid #C1D3DE;
+    border-radius: 8px;
     height: 30px;
     font-family: Inter;
     font-style: normal;
