@@ -173,6 +173,11 @@
 }
 
 /*price*/
+
+.price__container-table-second_for-mobile {
+    display: none;
+}
+
 .price {
     background-color: rgba(237, 244, 250, 1);
     display: flex;
@@ -774,6 +779,34 @@
     .clients__second-row-icon {
         padding-left: 10px;
     }
+
+    /*price*/
+
+    .price__container-table-first {
+        display: none;
+    }
+
+    .price__container-main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .price__container-tables {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .price__container-table-second_not-for-mobile {
+        display: none;
+    }
+
+    .price__container-table-second_not-for-mobile {
+        display: flex;
+        flex-direction: column;
+    }
+
 }
 
 @media screen and (max-width: 1024px) {}
