@@ -812,7 +812,7 @@
         justify-content: space-between;
     }
 
-    .price__icon {
+    .price__icon-table {
         padding-bottom: 10px;
         margin-right: 10px;
     }
@@ -828,6 +828,19 @@
 
     .price__bottom-icon {
         padding-left: 20px;
+    }
+
+    .price-text {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .price__icon {
+        width: 10%;
+    }
+
+    .price-text {
+        width: 80%;
     }
 
 }
