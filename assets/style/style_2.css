@@ -699,18 +699,32 @@ body {
 
 
 
-@media screen and (max-width: 320px) {
-    .main-example__container {
-        max-width: 100%;
+@media screen and (max-width: 767px) {
+    .main-example__table {
+        display: none;
+    }
+
+    .main-example__container,
+    .main-structure__container,
+    .main-target,
+    .main-why-target__container,
+    .main-about__container,
+    .main-settings__container,
+    .main-aim__container,
+    .main-price__container,
+    .main-select__container,
+    .header__text,
+    .main-trust__container {
+        max-width: 95%;
         margin: 0 auto;
     }
 
-    .main-example__table-mobile p {
-        font-size: 12px;
+    .main-about__text {
+        font-size: 16px;
     }
 
-    .main-example__table {
-        display: none;
+    .main-about__image {
+        max-width: 40%;
     }
 
     .main-aim__table {
@@ -725,11 +739,43 @@ body {
         display: none;
     }
 
+    .main-about__container {
+        flex-direction: column;
+        align-items: center;
+    }
 
+    .main-about__inner-container {
+        width: 100%;
+    }
+
+    .main-target__container {
+        flex-direction: column;
+    }
+
+    .main-why-target__inner-container {
+        flex-direction: column;
+    }
+
+    /* .main-why-target__item {
+        width: 100%;
+        height: 100%;
+    } */
+
+    .main-settings__parameters {
+        flex-direction: column;
+    }
+
+    /* .main-settings__inner {
+        max-width: 100%;
+    } */
+
+    .main-settings__aim {
+        flex-direction: column;
+    }
 
 }
 
-@media screen and (min-width:769px) and (max-width: 1024px) {
+@media screen and (min-width:768px) and (max-width: 1024px) {
 
     .main-example__container,
     .main-structure__container,
@@ -801,13 +847,9 @@ body {
     }
 }
 
-@media screen and (min-width:321px) and (max-width: 768px) {}
 
+@media screen and (min-width: 768px) {
 
-@media screen and (min-width: 321px) {
-    .main-example__table-mobile {
-        display: none;
-    }
 
     .main-structure__table-mobile {
         display: none;
@@ -818,6 +860,10 @@ body {
     }
 
     .main-price__table-mobile {
+        display: none;
+    }
+
+    .main-example__table-mobile {
         display: none;
     }
 }
