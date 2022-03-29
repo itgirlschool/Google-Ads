@@ -569,7 +569,8 @@
 
 .footer__img {
     border-radius: 10px;
-    margin-top: 30px;
+    margin-top: 40px;
+    padding-top: 10px;
 }
 
 .footer__form {
@@ -847,6 +848,7 @@
     /*About-ads*/
 
     .about-ads {
+
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -858,8 +860,11 @@
     }
 
     .about-ads__cards {
+        width: 93%;
+
         display: flex;
         flex-direction: column;
+
     }
 
     .about-ads__card {
