@@ -96,7 +96,11 @@ body {
     border-radius: 12px;
     align-items: flex-start;
     padding-top: 20px;
+}
 
+.main-about__image {
+    max-width: 50%;
+    margin-right: 30px;
 }
 
 .main-about,
@@ -162,11 +166,12 @@ body {
 }
 
 .main-target__text {
-    margin-top: 20px;
+    font-size: 16px;
 }
 
 .main-target__img {
     max-width: 100%;
+
 }
 
 .h2-bold-900 {
@@ -180,8 +185,7 @@ body {
 }
 
 .main-why-target p,
-.p-400,
-.main-target__text {
+.p-400 {
     font-size: 20px;
     font-weight: 400;
 }
@@ -315,7 +319,6 @@ body {
     text-align: center;
     margin-bottom: 40px;
     margin-top: 30px;
-
 }
 
 .main-example__h2,
@@ -536,7 +539,6 @@ body {
     color: #C1D3DE;
     width: 90%;
     padding-left: 10px;
-
 }
 
 .footer__input:focus {
@@ -694,10 +696,6 @@ body {
 .main-price__table-mobile-bold {
     font-weight: bold;
 }
-
-
-
-
 
 
 
