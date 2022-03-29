@@ -134,9 +134,14 @@
 
 .clients__icon {
     display: flex;
+
     width: 73%;
     justify-content: center;
     align-items: center;
+}
+
+.clients__icon-for-mobile {
+    display: flex;
 }
 
 .containericon,
@@ -711,12 +716,49 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin: 0 auto;
+
         padding-top: 30px;
     }
 
     .info__img {
         width: 93%;
+    }
+
+    /*clients*/
+
+
+    .clients__container {
+        width: 93%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .clients__icon {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .clients__header {
+        text-align: center;
+    }
+
+    .clients__icon-for-mobile {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .clients__icon-img {
+
+        padding: 10px;
+    }
+
+    .clients__icon-text {
+        font-family: Inter, sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 10px;
     }
 }
 
