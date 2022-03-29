@@ -578,3 +578,49 @@ body {
     margin-left: 10px;
     margin-right: 10px;
 }
+
+
+/* Таблицы для мобильной версии */
+.main-example__table-mobile-1 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 20% 30% 50%;
+    border-top: 1px solid #C1D3DE;
+}
+
+.main-example__table-mobile-1 p {
+    margin: 0px;
+}
+
+.main-example__table-mobile-left1,
+.main-example__table-mobile-left2 {
+    margin-bottom: 30px;
+}
+
+
+.main-example__table-mobile-bottom {
+    grid-column: 1/3;
+}
+
+.main-example__table-mobile-bold {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 320px) {
+    .main-example__container {
+        max-width: 95%;
+        margin: 0 auto;
+    }
+
+    .main-example__table-mobile p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .main-example__container {
+        max-width: 95%;
+        margin: 0 auto;
+    }
+
+}
