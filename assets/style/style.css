@@ -802,9 +802,32 @@
         display: none;
     }
 
-    .price__container-table-second_not-for-mobile {
+    .price__container-table-second_for-mobile {
         display: flex;
         flex-direction: column;
+    }
+
+    .price__line {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .price__icon {
+        padding-bottom: 10px;
+        margin-right: 10px;
+    }
+
+    .price__button {
+        width: 93%;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .price__bottom-icon {
+        padding-left: 20px;
     }
 
 }
