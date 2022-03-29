@@ -221,6 +221,10 @@ body {
     padding: 20px;
 }
 
+.main-why-target__h2 {
+    text-align: center;
+}
+
 .main-settings__parameters {
     display: flex;
     justify-content: space-between;
@@ -367,10 +371,15 @@ body {
     align-items: center;
 }
 
-.main-ptice__icon {
+.main-price__icon {
     height: 100%;
     margin-right: 20px;
     margin-left: 20px;
+}
+
+.main-price__text {
+    padding: 20px;
+    padding-top: 35px;
 }
 
 .main-price__euro,
@@ -606,6 +615,31 @@ body {
     font-weight: bold;
 }
 
+.main-structure__table-mobile-bold {
+    font-weight: bold;
+}
+
+.main-structure__table-mobile-1 {
+    border-top: 1px solid #C1D3DE;
+}
+
+.main-structure__table-mobile-item {
+    margin-bottom: 5px;
+}
+
+.main-structure__table-mobile-thin {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #C1D3DE;
+}
+
+
+
+
+
 @media screen and (max-width: 320px) {
     .main-example__container {
         max-width: 95%;
@@ -620,12 +654,35 @@ body {
         display: none;
     }
 
+
+
 }
 
 @media screen and (max-width: 1024px) {
-    .main-example__container {
+
+    .main-example__container,
+    .main-structure__container,
+    .main-target,
+    .main-why-target__container,
+    .main-about__container,
+    .main-settings__container,
+    .main-aim__container,
+    .main-price__container,
+    .main-select__container,
+    .header__text,
+    .main-trust__container {
         max-width: 95%;
         margin: 0 auto;
     }
 
+}
+
+@media screen and (min-width: 321px) {
+    .main-example__table-mobile {
+        display: none;
+    }
+
+    .main-structure__table-mobile {
+        display: none;
+    }
 }
