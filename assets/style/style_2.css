@@ -636,13 +636,19 @@ body {
     border-bottom: 1px solid #C1D3DE;
 }
 
+.main-price__table-mobile-bold {
+    font-weight: bold;
+}
+
+
+
 
 
 
 
 @media screen and (max-width: 320px) {
     .main-example__container {
-        max-width: 95%;
+        max-width: 100%;
         margin: 0 auto;
     }
 
@@ -651,6 +657,18 @@ body {
     }
 
     .main-example__table {
+        display: none;
+    }
+
+    .main-aim__table {
+        display: none;
+    }
+
+    .main-price__table {
+        display: none;
+    }
+
+    .main-structure__table {
         display: none;
     }
 
@@ -683,6 +701,14 @@ body {
     }
 
     .main-structure__table-mobile {
+        display: none;
+    }
+
+    .main-aim__table-mobile {
+        display: none;
+    }
+
+    .main-price__table-mobile {
         display: none;
     }
 }
