@@ -615,6 +615,11 @@ body {
     .main-example__table-mobile p {
         font-size: 12px;
     }
+
+    .main-example__table {
+        display: none;
+    }
+
 }
 
 @media screen and (max-width: 1024px) {
