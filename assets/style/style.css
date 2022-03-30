@@ -515,11 +515,17 @@
 
 .footer__container {
     width: 73%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__inner-container {
     display: grid;
     grid-template-columns: 50% 49%;
     grid-gap: 10px;
     align-self: center;
 }
+
 
 .footer__container-left {
     display: flex;
@@ -1039,6 +1045,23 @@
     .main-trust__telephon-container div {
         margin-top: 0px;
         margin-bottom: 30px;
+    }
+
+    /* Footer */
+
+    .footer__container {
+        width: 93%;
+    }
+
+    .footer__inner-container {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .footer__form {
+        width: 250px;
+
     }
 
 }
