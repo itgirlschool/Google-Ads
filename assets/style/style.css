@@ -1061,7 +1061,14 @@
 
     .footer__form {
         width: 250px;
+        padding-left: 10px;
+        padding-top: 60px;
+        padding-bottom: 20px;
+    }
 
+    .footer__container-for-button {
+        display: flex;
+        flex-direction: column;
     }
 
 }
