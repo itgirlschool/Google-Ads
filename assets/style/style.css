@@ -918,6 +918,34 @@
     .main-offer__icon {
         width: 20%;
     }
+
+    /* <Main-punkts*/
+
+    .main-punkts {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+
+    }
+
+    .main-punkts__container {
+        display: flex;
+        flex-direction: column;
+        width: 93%;
+
+        align-items: center;
+
+    }
+
+    .main-punkts__inner-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-top: 20px;
+        margin-right: 0;
+
+    }
 }
 
 
