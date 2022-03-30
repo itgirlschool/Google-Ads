@@ -885,7 +885,42 @@
         width: 100%;
     }
 
+    /*main-offer*/
+
+    .main-offer__container {
+        width: 93%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-offer__header {
+        text-align: center;
+    }
+
+    .main-offer__inner-container {
+        display: flex;
+        flex-direction: column;
+        width: 93%;
+        justify-content: stretch;
+    }
+
+    .main-offer__small-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .main-offer__inner-container div {
+        width: 100%;
+    }
+
+    .main-offer__icon {
+        width: 20%;
+    }
 }
+
+
 
 @media screen and (max-width: 1024px) {}
 
