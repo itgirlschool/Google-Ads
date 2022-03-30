@@ -1010,6 +1010,37 @@
         margin-left: 0px;
     }
 
+    .main-trust__telephon-container {
+        font-family: Inter, sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-trust__telephon-text {
+        max-width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-bottom: 0px;
+    }
+
+    .main-trust__h2-white {
+        padding-bottom: 20px;
+    }
+
+    .main-trust__telephon {
+        font-size: 28px;
+    }
+
+    .main-trust__p {
+        margin-bottom: 20px;
+    }
+
+    .main-trust__telephon-container div {
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+
 }
 
 
