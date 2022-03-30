@@ -946,6 +946,47 @@
         margin-right: 0;
 
     }
+
+    /*main-result*/
+
+    .main-result {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .main-result__header {
+        text-align: center;
+    }
+
+    .main-result__container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .main-result__icon-container {
+        width: 93%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 25px;
+
+    }
+
+    .main-result__icon {
+        width: 48px;
+        height: 48px;
+    }
+
+    .main-result__h3 {
+        font-size: 16px;
+    }
+
+    .main-result__h3_last {
+        padding-right: 10px;
+    }
+
 }
 
 
