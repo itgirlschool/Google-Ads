@@ -670,10 +670,16 @@ body {
 
 .main-example__table-mobile-1 p {
     margin: 0px;
+    padding-top: 10px;
 }
 
 .main-example__table-mobile-2 p {
     margin: 0px;
+    padding-top: 10px;
+}
+
+.main-example__heading {
+    max-width: 100%;
 }
 
 .main-example__table-mobile-left1,
@@ -698,6 +704,7 @@ body {
 
 .main-structure__table-mobile-1 {
     border-top: 1px solid #C1D3DE;
+    padding: 5px;
 }
 
 .main-structure__table-mobile-item {
@@ -741,6 +748,7 @@ body {
 
     .main-about__text {
         font-size: 16px;
+        padding-right: 10px;
     }
 
     .main-about__image {
@@ -777,10 +785,6 @@ body {
         max-width: 50%;
         justify-self: center;
     }
-
-    /* .main-target__h2 {
-        padding-bottom: 30px;
-    } */
 
     .main-why-target__inner-container {
         flex-direction: column;
@@ -854,6 +858,7 @@ body {
 
     .main-trust__telephon {
         font-size: 28px;
+        text-align: center;
     }
 
     .main-trust__telephon-container {
