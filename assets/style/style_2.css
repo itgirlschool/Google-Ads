@@ -778,6 +778,10 @@ body {
         justify-self: center;
     }
 
+    /* .main-target__h2 {
+        padding-bottom: 30px;
+    } */
+
     .main-why-target__inner-container {
         flex-direction: column;
     }
@@ -806,7 +810,65 @@ body {
         margin-right: 10px;
     }
 
+    .main-about__heading,
+    .main-example__h2,
+    .main-structure__h2,
+    .main-target__h2,
+    .main-why-target__h2,
+    .main-settings__h2,
+    .main-aim__h2,
+    .main-price__h2,
+    .main-trust__h2 {
+        font-size: 28px;
+    }
 
+    .main-about__text,
+    .main-aim__p {
+        font-size: 20px;
+    }
+
+    .main-example__h3,
+    .main-structure__text,
+    .main-target__h3,
+    .main-settings__h3,
+    .main-settings__h3-thin,
+    .main-select__h3 {
+        font-size: 18px;
+    }
+
+
+    .main-target__text,
+    .main-settings__p,
+    .main-settings__p-bold {
+        font-size: 16px;
+    }
+
+    .main-why-target .main-why-target__text {
+        font-size: 16px;
+    }
+
+    .main-structure__table,
+    .main-example__table {
+        font-size: 12px;
+    }
+
+    .main-trust__telephon {
+        font-size: 28px;
+    }
+
+    .main-trust__telephon-container {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .main-trust__telephon-text {
+        max-width: 90%;
+    }
+
+    .main-trust__telephon-container div {
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
 }
 
 @media screen and (min-width:768px) and (max-width: 1024px) {
@@ -879,6 +941,10 @@ body {
     .main-trust__telephon {
         font-size: 40px;
     }
+
+
+
+
 }
 
 
