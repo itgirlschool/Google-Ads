@@ -1081,6 +1081,47 @@
         margin-bottom: 10px;
     }
 
+    .footer__container-left {
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        padding-left: 10px;
+        padding-top: 60px;
+        padding-bottom: 20px;
+    }
+
+    .footer__innercontainer,
+    .footer__text {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5px;
+    }
+
+    .footer__text-blue {
+        margin-top: 10px;
+    }
+
+    .footer__logo {
+        width: 50%;
+    }
+
+    .footer__img {
+        margin-top: 0;
+        padding-top: 0;
+        width: 100%;
+        height: 250px;
+    }
+
+    .footer__inner-container-left {
+        display: flex;
+        flex-direction: column;
+        width: 93%;
+    }
+
+    .footer__text-bottom {
+        padding-left: 30px;
+        font-size: 15px;
+    }
 
 }
 
