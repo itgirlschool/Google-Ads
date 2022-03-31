@@ -134,7 +134,6 @@
 
 .clients__icon {
     display: flex;
-
     width: 73%;
     justify-content: center;
     align-items: center;
@@ -1127,6 +1126,68 @@
 
 
 
-@media screen and (max-width: 1024px) {}
+@media screen and (max-width: 1024px) {
 
-@media screen and (maxx-width: 768px) {}
+    .info__container,
+    .about-ads__cards,
+    .main-offer__inner-container,
+    .main-punkts__container,
+    .main-result__container,
+    .main-trust__container,
+    .footer__container {
+        width: 93%;
+    }
+
+    .footer__inner-container {
+        width: 100%;
+    }
+
+    .clients__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .clients__header {
+        text-align: center;
+    }
+
+    .clients__icon,
+    .clients__icon-for-mobile {
+        width: 93%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+
+    .price__container-main {
+        width: 93%;
+        margin-top: 40px;
+    }
+
+    .price__header,
+    .main-result__header {
+        padding-bottom: 40px;
+    }
+
+    .price__container-tables {
+        width: 100%;
+    }
+
+    .price__container-table-first {
+        padding-top: 129px;
+    }
+
+
+
+    .main-trust__images {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 10px;
+    }
+
+
+
+
+
+    @media screen and (maxx-width: 768px) {}
