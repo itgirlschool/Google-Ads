@@ -1064,7 +1064,7 @@
     }
 
     .footer__form {
-        width: 250px;
+        width: 280px;
         padding-left: 10px;
         padding-top: 60px;
         padding-bottom: 20px;
@@ -1076,7 +1076,7 @@
     }
 
     .footer__button {
-        width: 240px;
+        width: 270px;
         height: 48px;
         margin-bottom: 10px;
     }
@@ -1084,7 +1084,7 @@
     .footer__container-left {
         display: flex;
         flex-direction: column;
-        width: 250px;
+        width: 280px;
         padding-left: 10px;
         padding-top: 60px;
         padding-bottom: 20px;
@@ -1119,7 +1119,7 @@
     }
 
     .footer__text-bottom {
-        padding-left: 30px;
+        padding-left: 15px;
         font-size: 15px;
     }
 
