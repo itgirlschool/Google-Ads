@@ -1018,13 +1018,15 @@
 
     .main-trust__container {
         width: 93%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .main-trust__images {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 10px;
-        margin-left: 0px;
     }
 
     .main-trust__telephon-container {
