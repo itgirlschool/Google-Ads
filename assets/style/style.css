@@ -433,6 +433,12 @@
 
 /*main-trust*/
 
+.main-trust__h2-white,
+.main-trust__p,
+.main-trust__telephon {
+    font-family: Inter, sans-serif;
+}
+
 
 .main-trust__images img {
     max-width: 180px;
@@ -458,6 +464,8 @@
     border-radius: 15px;
     justify-content: space-around;
     align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .main-trust__telephon {
@@ -711,9 +719,9 @@
     display: flex;
 }
 
-/*Адаптив*/
+/*Адаптив    @media (width: 320px)*/
 
-@media (width: 320px) {
+@media screen and (max-width: 767px) {
 
     .header {
         display: none;
@@ -1126,7 +1134,7 @@
 
 
 
-@media screen and (max-width: 1024px) {
+@media sscreen and (min-width:768px) and (max-width: 1024px) {
 
     .info__container,
     .about-ads__cards,
@@ -1178,16 +1186,102 @@
         padding-top: 129px;
     }
 
-
-
     .main-trust__images {
         display: grid;
         grid-template-columns: repeat(5, 1fr);
         gap: 10px;
     }
+}
 
 
 
 
 
-    @media screen and (maxx-width: 768px) {}
+@media screen and (min-width: 768px) {
+
+    .info__container,
+    .about-ads__cards,
+    .main-offer__inner-container,
+    .main-punkts__container,
+    .main-result__container,
+    .main-trust__container,
+    .footer__container,
+    .price__container-main,
+    /*Для футера начинаются здесь*/
+    .footer__container {
+        width: 90%;
+    }
+
+    .footer__inner-container {
+        width: 100%;
+    }
+
+    .footer__text-bottom {
+        margin-top: 0;
+    }
+
+
+    .footer__innercontainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .footer__form {
+        padding-left: 15px;
+    }
+
+    /* Футер заканчивается здесь */
+
+    .clients__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .clients__header {
+        text-align: center;
+    }
+
+    .clients__icon,
+    .clients__icon-for-mobile {
+        width: 93%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+
+    .price__container-table-first {
+        padding-top: 147px;
+    }
+
+    .price__button {
+        width: 176px;
+        height: 60px;
+        margin-left: 15px;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-top: 25px;
+    }
+
+    .about-ads__img {
+        max-width: 40%;
+        height: 40%;
+    }
+
+    .main-trust__images img {
+        width: 160px;
+    }
+
+    .main-trust__images {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .main-trust__img9 {
+        grid-column: 2/3;
+    }
+
+
+}
