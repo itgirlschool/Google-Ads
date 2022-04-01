@@ -74,8 +74,6 @@
 }
 
 
-
-
 .p-400 {
     font-weight: 400;
     font-family: 'Inter', sans-serif;
@@ -84,7 +82,6 @@
 
 .h2-bolt-700 {
     font-weight: bold;
-    
     font-family: 'Inter', sans-serif;
 }
 
@@ -115,6 +112,7 @@
     justify-content: center;
     align-items: center;
 }
+
 .main-about-us-end {
     padding-top: 30px;
     padding-bottom: 80px;
@@ -126,15 +124,18 @@
     display: flex;
     margin-bottom: 50px;
 }
+
 .why-we-photo__container {
     padding-right: 20px;
 }
+
 .why-we__h3 {
     font-family: 'Inter', sans-serif;
     font-size: 38px;
     font-weight: 900;
     margin-top: 80px;
 }
+
 .main-selest__table-bold {
     font-weight: bold;
     font-weight: 700;
@@ -176,12 +177,15 @@
 
 .main__numbers-column {
     display: flex;
+    margin-left: 10px;
 }
+
 .bolt-700 {
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 68px;
 }
+
 .norm-400 {
     font-size: 20px;
     font-family: 'Inter', sans-serif;
@@ -193,6 +197,7 @@
     padding-top: 40px;
     padding-bottom: 60px;
 }
+
 .main-trust__images img {
     /* margin: 10px; */
     max-width: 180px;
@@ -446,3 +451,79 @@
     background-color: #0b76ef;
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
 }
+
+
+
+@media screen and (min-width:768px) and (max-width: 1024px) {
+
+    .header__about-us-text,
+    .main-about-us__container,
+    .why-we,
+    .main-numbers,
+    .main-trust__container,
+    .footer__container {
+        width: 95%;
+    }
+
+    .header__h1 {
+        font-size: 48px;
+    }
+
+    .header__p {
+        font-size: 20px;
+    }
+
+
+    .main-about-us__h2 {
+        font-size: 18px;
+    }
+
+    .main-about-us-text,
+    .li,
+    .main-about-us-back,
+    .main-about-us-end {
+        font-size: 16px;
+    }
+
+    .why-we-photo {
+        max-width: 100%;
+        margin-top: 90px;
+    }
+
+    .why-we__h3 {
+        font-size: 28px;
+    }
+
+
+    .main-numbers__h4 {
+        font-size: 28px;
+    }
+
+    .main-numbers__p {
+        font-size: 18px;
+    }
+
+    .number {
+        font-size: 55px;
+    }
+
+    .number-text {
+        font-size: 16px;
+    }
+
+
+
+
+}
+
+
+
+
+
+@media screen and (min-width: 768px) {}
+
+
+
+
+
+@media screen and (max-width: 767px) {}
