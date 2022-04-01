@@ -80,16 +80,15 @@
     font-size: 20px;
 }
 
-.h2-bolt-700 {
-    font-weight: bold;
-    font-family: 'Inter', sans-serif;
-}
+
 
 .main-about-us {
     background-color: #EDF4FA;
 }
 
 .main-about-us__h2 {
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
     padding-top: 80px;
 }
 
@@ -454,7 +453,8 @@
 
 
 
-@media screen and (min-width:768px) and (max-width: 1024px) {
+
+@media screen and (min-width: 1024px) {
 
     .header__about-us-text,
     .main-about-us__container,
@@ -468,7 +468,9 @@
     .header__h1 {
         font-size: 48px;
     }
-
+    .header-about-us__p-1024 {
+        display: none;
+    }
     .header__p {
         font-size: 20px;
     }
@@ -494,6 +496,9 @@
         font-size: 28px;
     }
 
+    .main-selest__table-bold {
+        font-size: 16px;
+    }
 
     .main-numbers__h4 {
         font-size: 28px;
@@ -511,6 +516,104 @@
         font-size: 16px;
     }
 
+    .main-numbers {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .header__about-us-text,
+    .main-about-us__container,
+    .why-we,
+    .main-numbers,
+    .main-trust__container,
+    .footer__container {
+        width: 95%;
+    }
+
+    .header {
+        height: 260px;
+        background-image: url(/assets/images/page5/about_us_header.png);
+        width: 100%;
+        max-width: 100%;
+    }
+    .header-about-us__p {
+        display: none;
+    }
+    .link {
+        display: none;
+    }
+    .header__btn {
+        padding: 10px;
+        margin: 5px;
+        color: white;
+        background-color: Transparent;
+        font-family: 'Inter', sans-serif;
+        border: 1px solid #C1D3DE;
+        border-radius: 12px;
+    }
+    .header__text-inner {
+        width: 560px;
+        height: 108px;
+    }
+
+    .header__h1 {
+        font-size: 48px;
+        margin-top: 20px;
+    }
+
+    .header__p {
+        font-size: 16px;
+    }
+
+    .main-about-us__h2 {
+        font-size: 18px;
+    }
+
+    .main-about-us-text,
+    .li,
+    .main-about-us-back,
+    .main-about-us-end {
+        font-size: 16px;
+    }
+
+    .why-we-photo {
+        max-width: 100%;
+        margin-top: 90px;
+    }
+
+    .why-we__h3 {
+        font-size: 28px;
+    }
+
+    .main-selest__table-bold {
+        font-size: 16px;
+    }
+
+
+    .main-number {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-numbers__h4 {
+        font-size: 28px;
+    }
+
+    .main-numbers__p {
+        font-size: 18px;
+    }
+
+    .number {
+        font-size: 48px;
+    }
+
+    .number-text {
+        font-size: 16px;
+    }
 
 
 
@@ -519,8 +622,6 @@
 
 
 
-
-@media screen and (min-width: 768px) {}
 
 
 
@@ -537,35 +638,103 @@
         width: 95%;
     }
 
-    .header__nav-container {
+    .header {
+        height: 260px;
+        background-image: url(/assets/images/page5/about_us_header.png);
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .header__nav {
         display: none;
+    }
+
+    .logo {
+        max-width: 40px;
+    }
+
+    .header__text-inner {
+        width: 288px;
+        height: 72px;
     }
 
     .header__h1 {
         font-size: 32px;
+        margin-top: 40px;
     }
+    .header-about-us__p-1024 {
+        display: none;
+    }
+
+    .header__p {
+        font-size: 16px;
+    }
+
+    .main-about-us__h2 {
+        font-size: 18px;
+        padding-top: 40px;
+    }
+
+    .main-about-us-text,
+    .li,
+    .main-about-us-back,
+    .main-about-us-end {
+        font-size: 16px;
+    }
+
+    .why-we-photo__container {
+        padding-right: 1px;
+    }
+
+    .why-we-photo {
+        max-width: 100%;
+        margin-top: 40px;
+    }
+
+    .table br {
+        font-size: 16px;
+    }
+
+    .why-we__h3 {
+        font-size: 28px;
+    }
+
+    .main-selest__table-bold {
+        font-size: 16px;
+    }
+
 
     .why-we__container {
         display: flex;
         flex-direction: column;
     }
 
-    .why-we-photo {
-        max-width: 100%;
-    }
 
     .main-numbers {
         display: flex;
         flex-direction: column;
         padding-top: 50px;
     }
+    
+    .main-numbers__h4 {
+        font-size: 28px;
+    }
 
     .main-numbers__p {
+        font-size: 18px;
         padding-bottom: 80px;
     }
 
     .number {
         font-size: 48px;
+    }
+    .main__numbers-text {
+        width: 288px;
+        height: 174px;
+    }
+    .number-text {
+        padding-left: 10px;
+        font-size: 16px;
     }
 
     .main__numbers-column {
@@ -574,8 +743,10 @@
         grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     }
 
-
-
+    .main-trust__h2,
+    .main-trust__h2-white {
+        font-size: 28px;
+    }
 
     .main-trust__telephon {
         font-size: 28px;
@@ -594,5 +765,9 @@
     .main-trust__telephon-container div {
         margin-bottom: 0px;
         margin-top: 0px;
+    }
+    .footer__container {
+        display: flex;
+        flex-direction: column;
     }
 }
