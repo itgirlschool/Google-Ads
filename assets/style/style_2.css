@@ -741,7 +741,18 @@ body {
         display: none;
     }
     
-    
+    .header__h1 {
+        font-size: 32px;
+    }
+
+    .header__p {
+        font-size: 16px;
+    }
+
+    .header__text-inner {
+        width: 100%;
+        margin-top: 80px;
+    }
 
     .main-example__table {
         display: none;
@@ -927,6 +938,18 @@ body {
 
     .header__link {
         display: none;
+    }
+
+    .header__h1 {
+        font-size: 48px;
+    }
+
+    .header__p {
+        font-size: 16px;
+    }
+
+    .header__text-inner {
+        margin-top: 50px;
     }
 
     .btn-blue {
