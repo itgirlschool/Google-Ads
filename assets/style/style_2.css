@@ -40,7 +40,7 @@ body {
 .header__link {
     text-decoration: none;
     color: white;
-    padding: 25px;
+    padding: 10px;
     font-size: 16px;
     font-family: 'Inter', sans-serif;
 }
@@ -902,9 +902,11 @@ body {
         margin: 0 auto;
     }
 
-    /* .header .header__nav-container {
+    .header .header__nav-container {
         background-color: #FFFFFF;
-    } */
+        margin: 0px;
+        height: 80px;
+    }
 
 
     .header__h1 {
