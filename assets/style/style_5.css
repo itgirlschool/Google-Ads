@@ -406,8 +406,6 @@
 .footer__container-for-button {
     display: flex;
     align-items: center;
-
-
 }
 
 .footer__div-for-input {
@@ -609,10 +607,10 @@
     .footer__button {
         width: 254px;
         height: 60px;
+        justify-content: center;
     }
-
-    .footer__button img {
-        padding-left: 5px;
+    .footer-vector {
+        padding-left: 10px;
     }
 
     .footer__checkbox {
