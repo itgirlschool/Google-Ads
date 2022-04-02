@@ -73,13 +73,11 @@
     font-weight: 400;
 }
 
-
 .p-400 {
     font-weight: 400;
     font-family: 'Inter', sans-serif;
     font-size: 20px;
 }
-
 
 
 .main-about-us {
@@ -402,6 +400,10 @@
     color: #C1D3DE;
 }
 
+.footer__link:hover {
+    color: white;
+}
+
 .footer__container-for-button {
     display: flex;
     align-items: center;
@@ -451,10 +453,19 @@
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
 }
 
+.footer__checkbox {
+    display: flex;
+    padding-left: 7px;
+}
 
 
+@media screen and (min-width: 1025px) {
+    .header-about-us__p-1024 {
+        display: none;
+    }
+}
 
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 1024px) {
 
     .header__about-us-text,
     .main-about-us__container,
@@ -465,19 +476,25 @@
         width: 95%;
     }
 
+
     .header__h1 {
         font-size: 48px;
     }
-    .header-about-us__p-1024 {
+
+    .header-about-us__p,
+    .link {
         display: none;
     }
-    .header__p {
+
+
+    .header-about-us__p-1024 {
         font-size: 20px;
     }
 
 
     .main-about-us__h2 {
         font-size: 18px;
+        padding-top: 40px;
     }
 
     .main-about-us-text,
@@ -520,6 +537,50 @@
         display: flex;
         justify-content: space-between;
     }
+
+    .main-trust__h2,
+    .main-trust__h2-white {
+        font-size: 28px;
+    }
+
+    .main-trust__p {
+        font-size: 18px;
+    }
+
+    .main-trust__telephon {
+        font-size: 40px;
+    }
+    .footer__innercontainer {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer__img {
+        padding-top: 40px;
+        border-radius: 10px;
+    }
+
+    .footer__container-for-button {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .footer__button {
+        width: 254px;
+        height: 60px;
+        justify-content: center;
+    }
+
+    .footer__button img {
+        padding-left: 5px;
+    }
+
+    .footer__checkbox {
+        display: flex;
+        padding-top: 10px;
+    }
+
+
 }
 
 
@@ -540,12 +601,15 @@
         width: 100%;
         max-width: 100%;
     }
+
     .header-about-us__p {
         display: none;
     }
+
     .link {
         display: none;
     }
+
     .header__btn {
         padding: 10px;
         margin: 5px;
@@ -555,6 +619,7 @@
         border: 1px solid #C1D3DE;
         border-radius: 12px;
     }
+
     .header__text-inner {
         width: 560px;
         height: 108px;
@@ -614,7 +679,43 @@
     .number-text {
         font-size: 16px;
     }
+    .main-trust__h2,
+    .main-trust__h2-white {
+        font-size: 28px;
+    }
 
+    .main-trust__p {
+        font-size: 18px;
+    }
+
+    .main-trust__telephon {
+        font-size: 40px;
+        text-align: start;
+    }
+
+    .footer__img {
+        padding-top: 40px;
+    }
+
+    .footer__container-for-button {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .footer__button {
+        width: 254px;
+        height: 60px;
+    }
+
+    .footer__button img {
+        padding-left: 5px;
+    }
+
+    .footer__checkbox {
+        display: flex;
+        padding-top: 10px;
+    }
 
 
 }
@@ -662,13 +763,14 @@
         font-size: 32px;
         margin-top: 40px;
     }
+
     .header-about-us__p-1024 {
         display: none;
     }
-
-    .header__p {
+    .header-about-us__p {
         font-size: 16px;
     }
+
 
     .main-about-us__h2 {
         font-size: 18px;
@@ -715,7 +817,7 @@
         flex-direction: column;
         padding-top: 50px;
     }
-    
+
     .main-numbers__h4 {
         font-size: 28px;
     }
@@ -728,10 +830,12 @@
     .number {
         font-size: 48px;
     }
+
     .main__numbers-text {
         width: 288px;
         height: 174px;
     }
+
     .number-text {
         padding-left: 10px;
         font-size: 16px;
@@ -759,15 +863,49 @@
     }
 
     .main-trust__telephon-text {
-        max-width: 90%;
+        max-width: 100%;
     }
 
     .main-trust__telephon-container div {
         margin-bottom: 0px;
         margin-top: 0px;
     }
+
     .footer__container {
         display: flex;
         flex-direction: column;
     }
+    .footer__innercontainer {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer__img {
+        max-width: 100%;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    .footer__form {
+        padding-left: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .footer__input {
+        border: 1px solid #C1D3DE;
+        border-radius: 10px;
+        height: 30px;
+        font-size: 16px;
+        width: 90%;
+        padding-left: 10px; 
+    }
+    .footer__input_big {
+        height: 60px;
+    }
+    .footer__button {  
+        width: 248px;
+        height: 48px;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
 }

@@ -575,12 +575,244 @@
 }
 
 
-@media screen and (min-width: 1024px) {}
+@media screen and (max-width: 1024px) {
+
+    .header-main,
+    .main-princ__container,
+    .main-prognose__container,
+    .our-works,
+    .main-trust__container,
+    .footer__container {
+        width: 95%;
+    }
+
+    .link {
+        display: none;
+    }
+
+
+    .header-text__h2 {
+        font-size: 38px;
+    }
+
+    .header-text__h1 {
+        font-size: 68px;
+    }
+
+    .header-text__p {
+        font-size: 20px;
+    }
+
+    .header__form {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .header__form-container {
+        padding-left: 25px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        border-radius: 10px;
+    }
+
+    .header__input-big {
+        height: 90px;
+    }
+
+    .header__h3 {
+        font-size: 28px;
+    }
+
+    .header__container-for-button {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .header__button {
+        width: 342px;
+        height: 60px;
+    }
+
+    .header__link:hover {
+        color: white;
+    }
+
+    .main-princ__h3 {
+        font-size: 28px;
+    }
+
+    .main-princ__photo {
+        max-width: 100%;
+    }
+
+    .main-princ-p1,
+    .main-princ-p2,
+    .main-princ-p3 {
+        font-size: 16px;
+    }
+
+    .main-prognose__h4 {
+        font-size: 28px;
+        max-width: 100%;
+    }
+    .our-works__h5 {
+        font-size: 28px;
+    }
+    
+    .our-works__text {
+        font-size: 28px;
+    }
+
+    .main-trust__h2,
+    .main-trust__h2-white {
+        font-size: 28px;
+    }
+
+    .main-trust__p {
+        font-size: 18px;
+    }
+
+    .main-trust__telephon {
+        font-size: 32px;
+        text-align: center;
+    }
+
+
+}
 
 
 
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .main-princ__container,
+    .main-prognose__container,
+    .our-works,
+    .main-trust__container,
+    .footer__container {
+        width: 95%;
+    }
+
+    .header-main {
+        width: 100%;
+    }
+
+    .header {
+        background-image: url(/assets/images/page5/about_us_header.png);
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .header__nav {
+        display: none;
+    }
+
+    .header-text__container {
+        width: 100%;
+        max-width: 100%;
+        padding-top: 5px;
+        padding-left: 15px;
+    }
+
+    .header-text {
+        padding-top: 80px;
+    }
+
+    .header-text__h2 {
+        font-size: 28px;
+    }
+
+    .header-text__h1 {
+        font-size: 48px;
+    }
+
+    .header-text__p {
+        font-size: 16px;
+    }
+
+    .header__form {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .header__form-container {
+        padding-left: 25px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        border-radius: 10px;
+    }
+
+    .header__input-big {
+        height: 90px;
+    }
+
+    .header__h3 {
+        font-size: 28px;
+    }
+
+    .header__container-for-button {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .header__button {
+        width: 254px;
+        height: 60px;
+    }
+
+    .main-princ__container {
+        padding-top: 30px;
+    }
+
+    .main-princ__photo {
+        max-width: 100%;
+        padding-top: 100px;
+    }
+
+    .main-princ__h3 {
+        font-size: 28px;
+    }
+
+    .main-princ-p1,
+    .main-princ-p2,
+    .main-princ-p3 {
+        font-size: 16px;
+    }
+
+
+    .main-prognose__h4 {
+        font-size: 28px;
+        max-width: 100%;
+    }
+
+    .col2 {
+        margin-left: 30px;
+    }
+
+    .main-trust__h2,
+    .main-trust__h2-white {
+        font-size: 28px;
+    }
+
+    .main-trust__p {
+        font-size: 18px;
+    }
+
+    .main-trust__telephon {
+        font-size: 32px;
+        text-align: center;
+    }
+
+
+
+}
+
+
+
+
+
 
 
 @media screen and (max-width: 767px) {
@@ -679,18 +911,22 @@
     .main-princ__h3 {
         font-size: 28px;
     }
+
     .main-princ-p1,
     .main-princ-p2,
     .main-princ-p3 {
         font-size: 16px;
     }
+
     .main-prognose__h4 {
         font-size: 32px;
     }
+
     .main-prognose__inner-container {
         display: flex;
         flex-direction: column;
     }
+
     .col2 {
         margin-left: 0;
         margin-top: 20px;
@@ -704,17 +940,21 @@
         padding-top: 20px;
         padding-bottom: 30px;
     }
+
     .our-works__h5 {
         font-size: 28px;
     }
+
     .our-works__text {
         font-size: 20px;
     }
+
     .our-works-photos {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+
     .our-works-ph {
         max-width: 60%;
     }
@@ -743,6 +983,7 @@
         margin-bottom: 0px;
         margin-top: 0px;
     }
+
     .footer__container {
         display: flex;
         flex-direction: column;
