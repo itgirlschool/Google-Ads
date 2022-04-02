@@ -861,4 +861,51 @@
     }
 }
 
-@media screen and (width: 768px) {}
+@media screen and (width: 768px) {
+
+    .footer__container,
+    .info__container,
+    .how-we-work__container,
+    .price__container,
+    .main-difference__container,
+    .question__container,
+    .main-trust__container {
+        width: 95%;
+    }
+
+    .footer__inner-container {
+        width: 100%;
+    }
+
+    .footer__text-bottom {
+        margin-top: 0;
+    }
+
+
+    .footer__innercontainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .footer__form {
+        padding-left: 15px;
+    }
+
+
+    .main-trust__images img {
+        width: 160px;
+    }
+
+    .main-trust__images {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .main-trust__img9 {
+        grid-column: 2/3;
+    }
+
+
+}
