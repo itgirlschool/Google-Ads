@@ -20,9 +20,13 @@
 <body>
     <header class="header">
         <div class="header__nav-container">
-            <div class="header__logo">
+            <!-- <div class="header__logo">
                 <img class="header__img" src="assets/images/page2/logo.png" alt="logo">
-            </div>
+            </div> -->
+            <picture class="header__logo">
+                <source srcset="/assets/images/page2/logo.png" media="(min-width: 1024px)">
+                <img src="/assets/images/page2/logo-black.png" alt="logo-black">
+            </picture>
             <div class="header__nav">
                 <a class="header__link" href="/index_6.html">Главная</a>
                 <a class="header__link" href="/index_5.html">О нас</a>
@@ -30,9 +34,9 @@
                 <a class="header__link" href="/index_2.html">SMM</a>
                 <a class="header__link" href="/index_4.html">SEO</a>
                 <a class="header__link" href="/index_3.html">Контакты</a>
-                <button class="header__btn">Свяжитесь с нами</button>
-                <button class="header__btn header__btn-clr">LV</button>
-                <!-- <a class="header__nav-gamburger" href=#><img src="/assets/images/page2/burger-menu.png" alt="menu"></a> -->
+                <button class="header__btn btn-blue">Свяжитесь с нами</button>
+                <button class="header__btn header__btn-clr btn-grey">LV</button>
+                <a class="header__nav-gamburger" href=#><img src="/assets/images/page2/burger-menu.png" alt="menu"></a>
             </div>
         </div>
         <div class="header__text">
@@ -563,31 +567,32 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td><img src="/assets/images/page2/row1_1.png" alt=""> Узнаваемость бренда</td>
-                            <td><img src="/assets/images/page2/row1_2.png" alt=""> Трафик</td>
-                            <td><img src="/assets/images/page2/row1_3.png" alt=""> Конверсия</td>
+                            <td><img src="/assets/images/page2/row1_1.png" alt="icon"> Узнаваемость бренда</td>
+                            <td><img src="/assets/images/page2/row1_2.png" alt="icon"> Трафик</td>
+                            <td><img src="/assets/images/page2/row1_3.png" alt="icon"> Конверсия</td>
                         </tr>
                         <tr>
-                            <td class="main__table-white"><img src="/assets/images/page2/row2_1.png" alt=""> Охват</td>
-                            <td class="main__table-white"><img src="/assets/images/page2/row2_2.png" alt="">
+                            <td class="main__table-white"><img src="/assets/images/page2/row2_1.png" alt="icon"> Охват
+                            </td>
+                            <td class="main__table-white"><img src="/assets/images/page2/row2_2.png" alt="icon">
                                 Вовлеченность</td>
-                            <td class="main__table-white"><img src="/assets/images/page2/row2_3.png" alt=""> Продажи
+                            <td class="main__table-white"><img src="/assets/images/page2/row2_3.png" alt="icon"> Продажи
                                 товаров из каталога</td>
                         </tr>
                         <tr>
                             <td rowspan="4"></td>
-                            <td><img src="/assets/images/page2/row3_1.png" alt=""> Установки приложения</td>
-                            <td rowspan="4"><img src="/assets/images/page2/row3_2.png" alt=""> Посещения точек</td>
+                            <td><img src="/assets/images/page2/row3_1.png" alt="icon"> Установки приложения</td>
+                            <td rowspan="4"><img src="/assets/images/page2/row3_2.png" alt="icon"> Посещения точек</td>
                         </tr>
                         <tr>
-                            <td class="main__table-white"><img src="/assets/images/page2/row4.png" alt=""> Просмотры
+                            <td class="main__table-white"><img src="/assets/images/page2/row4.png" alt="icon"> Просмотры
                                 видео</td>
                         </tr>
                         <tr>
-                            <td><img src="/assets/images/page2/row5.png" alt=""> Генерация лидов</td>
+                            <td><img src="/assets/images/page2/row5.png" alt="icon"> Генерация лидов</td>
                         </tr>
                         <tr>
-                            <td class="main__table-white"><img src="/assets/images/page2/row6.png" alt=""> Сообщения
+                            <td class="main__table-white"><img src="/assets/images/page2/row6.png" alt="icon"> Сообщения
                             </td>
                         </tr>
                     </tbody>
@@ -600,44 +605,46 @@
                             <th scope="col">Узнаваемость</th>
                         </tr>
                         <tr class="main__table-white">
-                            <td scope="col"><img src="/assets/images/page2/row1_1.png" alt="">Узнаваемость бренда</td>
+                            <td scope="col"><img src="/assets/images/page2/row1_1.png" alt="icon">Узнаваемость бренда
+                            </td>
                         </tr>
                         <tr class="main__table-white">
-                            <td scope="col"><img src="/assets/images/page2/row2_1.png" alt="">Охват</td>
+                            <td scope="col"><img src="/assets/images/page2/row2_1.png" alt="icon">Охват</td>
                         </tr>
                         <tr class="main__table-blue">
                             <th scope="col">Лиды</th>
                         </tr>
                         <tr class="main__table-blue">
-                            <td scope="col"><img src="/assets/images/page2/row1_2.png" alt="">Трафик</td>
+                            <td scope="col"><img src="/assets/images/page2/row1_2.png" alt="icon">Трафик</td>
                         </tr>
                         <tr class="main__table-blue">
-                            <td scope="col"><img src="/assets/images/page2/row2_2.png" alt="">Вовлеченность</td>
+                            <td scope="col"><img src="/assets/images/page2/row2_2.png" alt="icon">Вовлеченность</td>
                         </tr>
                         <tr class="main__table-blue">
-                            <td scope="col"><img src="/assets/images/page2/row3_1.png" alt="">Установки приложения</td>
+                            <td scope="col"><img src="/assets/images/page2/row3_1.png" alt="icon">Установки приложения
+                            </td>
                         </tr>
                         <tr class="main__table-blue">
-                            <td scope="col"><img src="/assets/images/page2/row4.png" alt="">Просмотры видео</td>
+                            <td scope="col"><img src="/assets/images/page2/row4.png" alt="icon">Просмотры видео</td>
                         </tr>
                         <tr class="main__table-blue">
-                            <td scope="col"><img src="/assets/images/page2/row5.png" alt="">Генерация лидов</td>
+                            <td scope="col"><img src="/assets/images/page2/row5.png" alt="icon">Генерация лидов</td>
                         </tr>
                         <tr class="main__table-blue">
-                            <td scope="col"><img src="/assets/images/page2/row6.png" alt="">Сообщения</td>
+                            <td scope="col"><img src="/assets/images/page2/row6.png" alt="icon">Сообщения</td>
                         </tr>
                         <tr class="main__table-white">
                             <th scope="col">Конверсия</th>
                         </tr>
                         <tr class="main__table-white">
-                            <td scope="col"><img src="/assets/images/page2/row1_3.png" alt="">Конверсия</td>
+                            <td scope="col"><img src="/assets/images/page2/row1_3.png" alt="icon">Конверсия</td>
                         </tr>
                         <tr class="main__table-white">
-                            <td scope="col"><img src="/assets/images/page2/row2_3.png" alt="">Продажи товаров из
+                            <td scope="col"><img src="/assets/images/page2/row2_3.png" alt="icon">Продажи товаров из
                                 каталога</td>
                         </tr>
                         <tr class="main__table-white">
-                            <td scope="col"><img src="/assets/images/page2/row3_2.png" alt="">Посещения точек</td>
+                            <td scope="col"><img src="/assets/images/page2/row3_2.png" alt="icon">Посещения точек</td>
                         </tr>
                     </tbody>
                 </table>
