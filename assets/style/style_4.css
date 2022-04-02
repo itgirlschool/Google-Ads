@@ -62,7 +62,7 @@
 }
 
 .header__h1,
-.h1 {
+    {
     font-family: Inter, sans-serif;
     font-size: 68px;
     font-weight: 900;
@@ -177,6 +177,21 @@
 
 }
 
+.how-we-work__h3 {
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    padding-top: 20px;
+}
+
+.how-we-work__p {
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px
+}
+
 /*price*/
 
 .price {
@@ -202,6 +217,14 @@
     font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: 400;
+}
+
+.price__h1,
+.how-we-work__header {
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 38px;
 }
 
 
@@ -589,7 +612,7 @@
 
 /* Адаптив */
 
-@media screen and (max-width: 767px) {
+@media screen and (width: 320px) {
 
     .header {
         display: none;
@@ -598,8 +621,9 @@
 
     .how-we-work__container,
     .info__container,
-    .table {
-        width: 93%;
+    .price__container,
+        {
+        width: 98%;
     }
 
     .info__container {
@@ -612,15 +636,26 @@
     }
 
 
-
     .how-we-work__header {
         text-align: center;
     }
+
+    .price__h1,
+    .how-we-work__header {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .price__table,
+    .price__h3.h3 {
+        font-size: 10px;
+    }
+
 
 
 
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {}
+@media screen and (width: 1024px) {}
 
-@media screen and (min-width: 768px) {}
+@media screen and (width: 768px) {}
