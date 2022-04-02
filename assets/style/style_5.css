@@ -460,7 +460,9 @@
 
 
 @media screen and (min-width: 1025px) {
-    .header-about-us__p-1024 {
+
+    .header-about-us__p-1024,
+    .header__nav-gamburger {
         display: none;
     }
 }
@@ -476,6 +478,28 @@
         width: 95%;
     }
 
+    .header__logo {
+        padding-top: 24px;
+    }
+
+    .header .header__nav-container {
+        background-color: #FFFFFF;
+        margin: 0px;
+        height: 80px;
+        padding-top: 0px;
+    }
+
+    .btn-blue {
+        border: 1px solid #376FFF;
+        color: #376FFF;
+        font-weight: bold;
+    }
+
+    .btn-grey {
+        border: 1px solid #376FFF;
+        color: #8B9BAB;
+        font-weight: bold;
+    }
 
     .header__h1 {
         font-size: 48px;
@@ -550,10 +574,12 @@
     .main-trust__telephon {
         font-size: 40px;
     }
+
     .footer__innercontainer {
         display: flex;
         flex-direction: column;
     }
+
     .footer__img {
         padding-top: 40px;
         border-radius: 10px;
@@ -596,10 +622,37 @@
     }
 
     .header {
-        height: 260px;
+        height: 416px;
         background-image: url(/assets/images/page5/about_us_header.png);
         width: 100%;
         max-width: 100%;
+    }
+
+    .header__logo {
+        padding-top: 24px;
+    }
+
+    .header .header__nav-container {
+        background-color: #FFFFFF;
+        margin: 0px;
+        height: 80px;
+        padding-top: 0px;
+    }
+
+    .btn-blue {
+        border: 1px solid #376FFF;
+        color: #376FFF;
+        font-weight: bold;
+    }
+
+    .btn-grey {
+        border: 1px solid #376FFF;
+        color: #8B9BAB;
+        font-weight: bold;
+    }
+
+    .header__text-inner {
+        padding-top: 60px;
     }
 
     .header-about-us__p {
@@ -610,15 +663,6 @@
         display: none;
     }
 
-    .header__btn {
-        padding: 10px;
-        margin: 5px;
-        color: white;
-        background-color: Transparent;
-        font-family: 'Inter', sans-serif;
-        border: 1px solid #C1D3DE;
-        border-radius: 12px;
-    }
 
     .header__text-inner {
         width: 560px;
@@ -679,6 +723,7 @@
     .number-text {
         font-size: 16px;
     }
+
     .main-trust__h2,
     .main-trust__h2-white {
         font-size: 28px;
@@ -746,8 +791,12 @@
         max-width: 100%;
     }
 
-    .header__nav {
+    .link,
+    .header__btn {
         display: none;
+    }
+    .header__nav {
+        padding-top: 24px;
     }
 
     .logo {
@@ -767,6 +816,7 @@
     .header-about-us__p-1024 {
         display: none;
     }
+
     .header-about-us__p {
         font-size: 16px;
     }
@@ -875,37 +925,43 @@
         display: flex;
         flex-direction: column;
     }
+
     .footer__innercontainer {
         display: flex;
         flex-direction: column;
     }
+
     .footer__img {
         max-width: 100%;
         padding-top: 10px;
         padding-bottom: 20px;
     }
+
     .footer__form {
         padding-left: 20px;
         padding-top: 20px;
         padding-bottom: 20px;
     }
+
     .footer__input {
         border: 1px solid #C1D3DE;
         border-radius: 10px;
         height: 30px;
         font-size: 16px;
         width: 90%;
-        padding-left: 10px; 
+        padding-left: 10px;
     }
+
     .footer__input_big {
         height: 60px;
     }
-    .footer__button {  
+
+    .footer__button {
         width: 248px;
         height: 48px;
         justify-content: center;
         align-items: center;
-        
+
     }
 
 }
