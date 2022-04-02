@@ -22,18 +22,20 @@
 
     <header class="header">
         <div class="header__nav-container">
-            <div class="logo">
-                <img src="assets/images/page2/logo.png" alt="logo">
-            </div>
+            <picture class="header__logo">
+                <source srcset="/assets/images/page2/logo.png" media="(min-width: 1024px)">
+                <img src="/assets/images/page2/logo-black.png" alt="logo-black">
+            </picture>
             <div class="header__nav">
-                <a class="link" href="/index_6.html">Главная</a>
-                <a class="link" href="/index_5.html">О нас</a>
-                <a class="link" href="/index.html">Google Adwords</a>
-                <a class="link" href="/index_2.html">SMM</a>
-                <a class="link" href="/index_4.html">SEO</a>
-                <a class="link" href="/index_3.html">Контакты</a>
-                <button class="header__btn">Свяжитесь с нами</button>
-                <button class="header__btn header__btn-clr">LV</button>
+                <a class="link header__link" href="/index_6.html">Главная</a>
+                <a class="link header__link" href="/index_5.html">О нас</a>
+                <a class="link header__link" href="/index.html">Google Adwords</a>
+                <a class="link header__link" href="/index_2.html">SMM</a>
+                <a class="link header__link" href="/index_4.html">SEO</a>
+                <a class="link header__link" href="/index_3.html">Контакты</a>
+                <button class="header__btn btn-blue">Свяжитесь с нами</button>
+                <button class="header__btn header__btn-clr btn-grey">LV</button>
+                <a class="header__nav-gamburger" href=#><img src="/assets/images/page2/burger-menu.png" alt="menu"></a>
             </div>
         </div>
         <div class="header__text">

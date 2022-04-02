@@ -1,7 +1,7 @@
 /*header из smm*/
 
 .header__text-inner {
-    width: 60%;
+    width: 50%;
 }
 
 .header {
@@ -19,10 +19,11 @@
     margin-left: 10px;
 }
 
-.link {
+.link,
+.header__link {
     text-decoration: none;
     color: white;
-    padding: 25px;
+    padding: 10px;
     font-size: 16px;
     font-family: Inter, sans-serif;
 }
@@ -725,6 +726,46 @@
 @media screen and (max-width: 767px) {
 
 
+    .header {
+        height: 376px;
+    }
+
+    .header .header__nav-container {
+        background-color: #FFFFFF;
+        margin: 0px;
+        height: 80px;
+    }
+
+    .header__link {
+        display: none;
+    }
+
+    .header__btn {
+        display: none;
+    }
+
+    .header__h1 {
+        font-size: 32px;
+    }
+
+    .header__p {
+        font-size: 16px;
+    }
+
+    .header__text-inner {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .header__nav-gamburger {
+        margin-right: 20px;
+        margin-left: 10px;
+    }
+
+    .header__logo {
+        margin-left: 20px;
+    }
+
     .info {
         max-width: 100%;
         margin: 0 auto;
@@ -1134,7 +1175,11 @@
 
 
 
-@media sscreen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
+
+    .header__nav-gamburger {
+        display: none;
+    }
 
     .info__container,
     .about-ads__cards,
@@ -1199,6 +1244,57 @@
 
 @media screen and (min-width:768px) and (max-width: 1023px) {
 
+    .header .header__nav-container {
+        background-color: #FFFFFF;
+        margin: 0px;
+        height: 80px;
+    }
+
+    .header__link {
+        display: none;
+    }
+
+    .header__nav-gamburger {
+        margin-right: 20px;
+        margin-left: 10px;
+    }
+
+    .header__logo {
+        margin-left: 20px;
+    }
+
+    .header__h1 {
+        font-size: 48px;
+    }
+
+    .header__p {
+        font-size: 16px;
+    }
+
+    .header__text-inner {
+        margin-top: 50px;
+    }
+
+    .btn-blue {
+        border: 1px solid #376FFF;
+        color: #376FFF;
+        font-weight: bold;
+    }
+
+    .btn-grey {
+        border: 1px solid #376FFF;
+        color: #8B9BAB;
+        font-weight: bold;
+    }
+
+    .header__h1 {
+        font-size: 48px;
+    }
+
+    .header__p {
+        font-size: 20px;
+    }
+
     .info__container,
     .about-ads__cards,
     .main-offer__inner-container,
@@ -1207,6 +1303,7 @@
     .main-trust__container,
     .footer__container,
     .price__container-main,
+    .header__text,
     /*Для футера начинаются здесь*/
     .footer__container {
         width: 90%;

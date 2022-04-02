@@ -19,7 +19,8 @@
     margin-left: 10px;
 }
 
-.link {
+.link,
+.header__link {
     text-decoration: none;
     color: white;
     padding: 25px;
@@ -27,7 +28,7 @@
     font-family: Inter, sans-serif;
 }
 
-.link:hover {
+.header__link:hover {
     text-decoration: underline;
     color: white;
 }
@@ -625,6 +626,47 @@
 
 @media screen and (max-width: 767px) {
 
+    .header {
+        height: 376px;
+    }
+
+    .header .header__nav-container {
+        background-color: #FFFFFF;
+        margin: 0px;
+        height: 80px;
+    }
+
+    .header__link {
+        display: none;
+    }
+
+    .header__btn {
+        display: none;
+    }
+
+    .header__h1 {
+        font-size: 32px;
+    }
+
+    .header__p {
+        font-size: 16px;
+    }
+
+    .header__text-inner {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .header__nav-gamburger {
+        margin-right: 20px;
+        margin-left: 10px;
+    }
+
+    .header__logo {
+        margin-left: 20px;
+    }
+
+
 
     .how-we-work__container,
     .info__container,
@@ -836,6 +878,10 @@
 
 @media screen and (min-width: 1024px) {
 
+    .header__nav-gamburger {
+        display: none;
+    }
+
     .footer__container,
     .info__container,
     .how-we-work__container,
@@ -865,8 +911,60 @@
     .price__container,
     .main-difference__container,
     .question__container,
-    .main-trust__container {
+    .main-trust__container,
+    .header__text {
         width: 95%;
+    }
+
+    .header .header__nav-container {
+        background-color: #FFFFFF;
+        margin: 0px;
+        height: 80px;
+    }
+
+    .header__link {
+        display: none;
+    }
+
+    .header__nav-gamburger {
+        margin-right: 20px;
+        margin-left: 10px;
+    }
+
+    .header__logo {
+        margin-left: 20px;
+    }
+
+    .header__h1 {
+        font-size: 48px;
+    }
+
+    .header__p {
+        font-size: 16px;
+    }
+
+    .header__text-inner {
+        margin-top: 50px;
+    }
+
+    .btn-blue {
+        border: 1px solid #376FFF;
+        color: #376FFF;
+        font-weight: bold;
+    }
+
+    .btn-grey {
+        border: 1px solid #376FFF;
+        color: #8B9BAB;
+        font-weight: bold;
+    }
+
+    .header__h1 {
+        font-size: 48px;
+    }
+
+    .header__p {
+        font-size: 20px;
     }
 
     .footer__inner-container {
