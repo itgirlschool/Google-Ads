@@ -726,6 +726,23 @@ body {
 
 
 @media screen and (max-width: 767px) {
+    
+    .header .header__nav-container {
+        background-color: #FFFFFF;
+        margin: 0px;
+        height: 80px;
+    }
+
+    .header__link {
+        display: none;
+    }    
+
+    .header__btn {
+        display: none;
+    }
+    
+    
+
     .main-example__table {
         display: none;
     }
@@ -908,6 +925,21 @@ body {
         height: 80px;
     }
 
+    .header__link {
+        display: none;
+    }
+
+    .btn-blue {
+        border: 1px solid #376FFF;
+        color: #376FFF;
+        font-weight: bold;
+    }
+
+    .btn-grey {
+        border: 1px solid #376FFF;
+        color: #8B9BAB;
+        font-weight: bold;
+    }
 
     .header__h1 {
         font-size: 48px;
