@@ -727,6 +727,10 @@ body {
 
 @media screen and (max-width: 767px) {
     
+    .header {
+        height: 376px;
+    }
+
     .header .header__nav-container {
         background-color: #FFFFFF;
         margin: 0px;
@@ -751,7 +755,7 @@ body {
 
     .header__text-inner {
         width: 100%;
-        margin-top: 80px;
+        margin-top: 30px;
     }
 
     .main-example__table {
