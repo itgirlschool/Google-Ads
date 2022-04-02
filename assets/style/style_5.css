@@ -26,7 +26,7 @@
 .link {
     text-decoration: none;
     color: white;
-    padding: 18px;
+    padding: 10px;
     font-size: 16px;
     font-family: 'Inter', sans-serif;
 }
@@ -196,7 +196,6 @@
 }
 
 .main-trust__images img {
-    /* margin: 10px; */
     max-width: 180px;
 }
 
@@ -349,7 +348,7 @@
     outline: 0;
 }
 
-.footer__input_big {
+.footer__input-big {
     height: 120px;
     padding-top: 10px;
 }
@@ -458,159 +457,15 @@
     padding-left: 7px;
 }
 
-
 @media screen and (min-width: 1025px) {
 
-    .header-about-us__p-1024,
-    .header__nav-gamburger {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 1024px) {
-
-    .header__about-us-text,
-    .main-about-us__container,
-    .why-we,
-    .main-numbers,
-    .main-trust__container,
-    .footer__container {
-        width: 95%;
-    }
-
-    .header__logo {
-        padding-top: 24px;
-    }
-
-    .header .header__nav-container {
-        background-color: #FFFFFF;
-        margin: 0px;
-        height: 80px;
-        padding-top: 0px;
-    }
-
-    .btn-blue {
-        border: 1px solid #376FFF;
-        color: #376FFF;
-        font-weight: bold;
-    }
-
-    .btn-grey {
-        border: 1px solid #376FFF;
-        color: #8B9BAB;
-        font-weight: bold;
-    }
-
-    .header__h1 {
-        font-size: 48px;
-    }
-
-    .header-about-us__p,
-    .link {
-        display: none;
-    }
-
-
+    .header__nav-gamburger,
     .header-about-us__p-1024 {
-        font-size: 20px;
+        display: none;
     }
-
-
-    .main-about-us__h2 {
-        font-size: 18px;
-        padding-top: 40px;
-    }
-
-    .main-about-us-text,
-    .li,
-    .main-about-us-back,
-    .main-about-us-end {
-        font-size: 16px;
-    }
-
-    .why-we-photo {
-        max-width: 100%;
-        margin-top: 90px;
-    }
-
-    .why-we__h3 {
-        font-size: 28px;
-    }
-
-    .main-selest__table-bold {
-        font-size: 16px;
-    }
-
-    .main-numbers__h4 {
-        font-size: 28px;
-    }
-
-    .main-numbers__p {
-        font-size: 18px;
-    }
-
-    .number {
-        font-size: 55px;
-    }
-
-    .number-text {
-        font-size: 16px;
-    }
-
-    .main-numbers {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .main-trust__h2,
-    .main-trust__h2-white {
-        font-size: 28px;
-    }
-
-    .main-trust__p {
-        font-size: 18px;
-    }
-
-    .main-trust__telephon {
-        font-size: 40px;
-    }
-
-    .footer__innercontainer {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .footer__img {
-        padding-top: 40px;
-        border-radius: 10px;
-    }
-
-    .footer__container-for-button {
-        display: flex;
-        flex-direction: column;
-        align-items: stretch;
-    }
-
-    .footer__button {
-        width: 254px;
-        height: 60px;
-        justify-content: center;
-    }
-
-    .footer__button img {
-        padding-left: 5px;
-    }
-
-    .footer__checkbox {
-        display: flex;
-        padding-top: 10px;
-    }
-
-
 }
 
-
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
 
     .header__about-us-text,
     .main-about-us__container,
@@ -762,14 +617,7 @@
         padding-top: 10px;
     }
 
-
 }
-
-
-
-
-
-
 
 
 
@@ -791,10 +639,22 @@
         max-width: 100%;
     }
 
+    .header__logo {
+        padding-top: 24px;
+    }
+
+    .header .header__nav-container {
+        background-color: #FFFFFF;
+        margin: 0px;
+        height: 80px;
+        padding-top: 0px;
+    }
+
     .link,
     .header__btn {
         display: none;
     }
+
     .header__nav {
         padding-top: 24px;
     }
