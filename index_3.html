@@ -18,9 +18,10 @@
 <body>
     <header class="header">
         <div class="header__nav-container">
-            <div class="logo">
-                <img src="assets/images/page2/logo.png" alt="logo">
-            </div>
+            <picture class="header__logo">
+                <source srcset="/assets/images/page2/logo.png" media="(min-width: 1024px)">
+                <img src="/assets/images/page2/logo-black.png" alt="logo-black">
+            </picture>
             <div class="header__nav">
                 <a class="header__link" href="http://127.0.0.1:5500/index_6.html">Главная</a>
                 <a class="header__link" href="http://127.0.0.1:5500/index_5.html">О нас</a>
@@ -28,8 +29,9 @@
                 <a class="header__link" href="http://127.0.0.1:5500/index_2.html">SMM</a>
                 <a class="header__link" href="http://127.0.0.1:5500/index_4.html">SEO</a>
                 <a class="header__link" href="http://127.0.0.1:5500/index_3.html">Контакты</a>
-                <button class="header__btn">Свяжитесь с нами</button>
-                <button class="header__btn header__btn-clr">LV</button>
+                <button class="header__btn btn-blue">Свяжитесь с нами</button>
+                <button class="header__btn header__btn-clr btn-grey">LV</button>
+                <a class="header__nav-gamburger" href=#><img src="/assets/images/page2/burger-menu.png" alt="menu"></a>
             </div>
         </div>
         <div class="header__text">
@@ -58,7 +60,8 @@
                         </div>
                         <div class="footer__text">
                             <p class="footer__text-grey">Адрес</p>
-                            <p class="footer__text-dark">123/B, Route 66, Downtown, Washington, DC 20004, US
+                            <p class="footer__text-dark">123/B, Route 66, Downtown, Washington, DC
+                                20004, US
                             </p>
                         </div>
                     </div>
@@ -81,23 +84,25 @@
                 <div class="footer__div-for-input"><input type="tel" name="phone" value="+7 999 999-99-99"
                         class="footer__input"></div>
 
-                <div class="footer__div-for-input"><textarea type="text" name="text"
+                <div class="footer__div-for-input"><textarea name="text"
                         class="footer__input footer__input_big">Ваше сообщение</textarea>
                 </div>
                 <div class="footer__container-for-button">
-                    <button class="footer__button">Отправить<img src="/assets/images/page1/footer-vector.svg"></button>
-                    <input type="checkbox" class="footer__checkbox-button" id="checkbox" name="checkbox" value="yes">
-                    <label for="checkbox" class="label"></label>
-
-                    <div class="footer__checkobox">Я прочитал и принимаю условия <a href="#"
-                            class="footer__link">пользовательского
-                            соглашения</a></div>
-
+                    <button class="footer__button">Отправить<img src="/assets/images/page1/footer-vector.svg"
+                            alt="button"></button>
+                    <div class="footer__checkbox">
+                        <input class="footer__checkbox-button" id="checkbox" name="checkbox" value="yes">
+                        <label for="checkbox" class="label"></label>
+                        <div class="footer__checkobox">Я прочитал и принимаю условия <a href="#"
+                                class="footer__link">пользовательского
+                                соглашения</a></div>
+                    </div>
                 </div>
             </div>
             <div class="footer__div-for-text-bottom">
                 <p class="footer__text-bottom">SIA OL © Visas tiesības aizsargātas 2021</p>
             </div>
+        </div>
     </footer>
 
 </body>
