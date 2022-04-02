@@ -623,11 +623,7 @@
 
 /* Адаптив */
 
-@media screen and (width: 320px) {
-
-    .header {
-        display: none;
-    }
+@media screen and (max-width: 767px) {
 
 
     .how-we-work__container,
@@ -838,7 +834,7 @@
 
 }
 
-@media screen and (width: 1024px) {
+@media screen and (min-width: 1024px) {
 
     .footer__container,
     .info__container,
@@ -861,7 +857,7 @@
     }
 }
 
-@media screen and (width: 768px) {
+@media screen and (min-width:768px) and (max-width: 1023px) {
 
     .footer__container,
     .info__container,

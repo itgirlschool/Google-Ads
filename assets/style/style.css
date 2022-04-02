@@ -722,11 +722,8 @@
 
 /*Адаптив*/
 
-@media screen and (width: 320px) {
+@media screen and (max-width: 767px) {
 
-    .header {
-        display: none;
-    }
 
     .info {
         max-width: 100%;
@@ -1137,7 +1134,7 @@
 
 
 
-@media sscreen and (width: 1024px) {
+@media sscreen and (min-width: 1024px) {
 
     .info__container,
     .about-ads__cards,
@@ -1200,7 +1197,7 @@
 
 
 
-@media screen and (width: 768px) {
+@media screen and (min-width:768px) and (max-width: 1023px) {
 
     .info__container,
     .about-ads__cards,
