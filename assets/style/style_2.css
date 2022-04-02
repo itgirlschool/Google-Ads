@@ -940,6 +940,15 @@ body {
         display: none;
     }
 
+    .header__nav-gamburger {
+        margin-right: 20px;
+        margin-left: 10px;
+    }
+
+    .header__logo {
+        margin-left: 20px;
+    }
+
     .header__h1 {
         font-size: 48px;
     }
