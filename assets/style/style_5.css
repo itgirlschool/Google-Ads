@@ -38,7 +38,7 @@
 
 .header__btn {
     padding: 15px;
-    margin: 10px;
+    margin: 5px;
     color: white;
     background-color: Transparent;
     font-family: 'Inter', sans-serif;
@@ -493,6 +493,9 @@
         height: 80px;
         padding-top: 0px;
     }
+    .header__nav {
+        padding-top: 5px;
+    }
 
     .btn-blue {
         border: 1px solid #376FFF;
@@ -501,7 +504,7 @@
     }
 
     .btn-grey {
-        border: 1px solid #376FFF;
+        border: 1px solid #8B9BAB;
         color: #8B9BAB;
         font-weight: bold;
     }
@@ -821,7 +824,10 @@
         height: 48px;
         justify-content: center;
         align-items: center;
-
     }
 
+    .footer__container-for-button {
+        display: flex;
+        flex-direction: column;
+    }
 }

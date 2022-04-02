@@ -22,9 +22,10 @@
 <body>
     <header class="header">
         <div class="header__nav-container">
-            <div class="logo">
-                <img src="./assets/images/page5/logo.png" alt="logo">
-            </div>
+            <picture class="header__logo">
+                <source srcset="/assets/images/page2/logo.png" media="(min-width: 1025px)">
+                <img src="/assets/images/page6/logo-black.png" alt="logo-black">
+            </picture>
             <div class="header__nav">
                 <a class="link" href="http://127.0.0.1:5500/index_6.html">Главная</a>
                 <a class="link" href="http://127.0.0.1:5500/index_5.html">О нас</a>
@@ -34,6 +35,7 @@
                 <a class="link" href="http://127.0.0.1:5500/index_3.html">Контакты</a>
                 <button class="header__btn">Свяжитесь с нами</button>
                 <button class="header__btn header__btn-clr">LV</button>
+                <a class="header__nav-gamburger" href=#><img src="/assets/images/page5/burger-menu.png" alt="menu"></a>
             </div>
         </div>
         <div class="header-main">
@@ -66,8 +68,8 @@
                         <div class="header__checkbox">
                             <div class="checkbox-img"><img src="/assets/images/page6/Checkbox.png"></div>
                             <div class="header__checkbox-img" alt="img">Я прочитал и принимаю условия <a href="#"
-                                class="header__link">пользовательского
-                                соглашения</a></div>
+                                    class="header__link">пользовательского
+                                    соглашения</a></div>
                         </div>
                     </div>
                 </div>
@@ -223,19 +225,19 @@
                         class="footer__input footer__input_big">Ваше сообщение</textarea>
                 </div>
                 <div class="footer__container-for-button">
-                    <button class="footer__button">Отправить<img src="/assets/images/page1/footer-vector.svg"></button>
-                    <input type="checkbox" class="footer__checkbox-button" id="checkbox" name="checkbox" value="yes">
-                    <label for="checkbox" class="label"></label>
-
-                    <div class="footer__checkobox">Я прочитал и принимаю условия <a href="#"
-                            class="footer__link">пользовательского
-                            соглашения</a></div>
-
+                    <button class="footer__button">Отправить<img src="/assets/images/page1/footer-vector.svg"
+                            alt="button"></button>
+                    <div class="footer__checkbox">
+                        <input class="footer__checkbox-button" id="checkbox" name="checkbox" value="yes">
+                        <label for="checkbox" class="label"></label>
+                        <div class="footer__checkobox">Я прочитал и принимаю условия <a href="#"
+                                class="footer__link">пользовательского
+                                соглашения</a></div>
+                    </div>
                 </div>
-            </div>
-            <div class="footer__div-for-text-bottom">
-                <p class="footer__text-bottom">SIA OL © Visas tiesības aizsargātas 2021</p>
-            </div>
+                <div class="footer__div-for-text-bottom">
+                    <p class="footer__text-bottom">SIA OL © Visas tiesības aizsargātas 2021</p>
+                </div>
     </footer>
 
 
