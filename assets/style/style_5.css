@@ -594,7 +594,10 @@
         font-size: 40px;
         text-align: start;
     }
-
+.footer__innercontainer {
+    display: flex;
+    flex-direction: column;
+}
     .footer__img {
         padding-top: 40px;
     }
