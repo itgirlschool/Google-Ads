@@ -28,7 +28,7 @@
 .link {
     text-decoration: none;
     color: white;
-    padding: 18px;
+    padding: 10px;
     font-size: 16px;
     font-family: 'Inter', sans-serif;
 }
@@ -410,17 +410,11 @@
 
 .footer__container {
     width: 73%;
-    display: flex;
-    flex-direction: column;
-}
-
-.footer__inner-container {
     display: grid;
     grid-template-columns: 50% 49%;
     grid-gap: 10px;
     align-self: center;
 }
-
 
 .footer__container-left {
     display: flex;
@@ -456,8 +450,7 @@
     display: flex;
     flex-direction: column;
     justify-content: end;
-    padding-bottom: 7%;
-    ;
+    padding-bottom: 18px;
 }
 
 .footer__text-bottom {
@@ -469,7 +462,7 @@
 
 .footer__img {
     border-radius: 10px;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 .footer__form {
@@ -502,7 +495,7 @@
     outline: 0;
 }
 
-.footer__input_big {
+.footer__input-big {
     height: 120px;
     padding-top: 10px;
 }
@@ -551,12 +544,16 @@
     font-style: normal;
     font-weight: 400;
     color: #C1D3DE;
-    text-decoration: underline;
+}
+
+.footer__link:hover {
+    color: white;
 }
 
 .footer__container-for-button {
     display: flex;
     align-items: center;
+
 }
 
 .footer__div-for-input {
@@ -607,7 +604,6 @@
 
 
 
-
 @media screen and (min-width: 1025px) {
     .header__nav-gamburger {
         display: none;
@@ -633,7 +629,7 @@
     }
 
     .header {
-        background-image: url(/assets/images/page5/about_us_header.png);
+        background-image: url(/assets/images/page6/head_page6.png);
         width: 100%;
         max-width: 100%;
     }
@@ -664,9 +660,6 @@
         color: #8B9BAB;
         font-weight: bold;
     }
-
-
-
 
 
     .header-text__container {
@@ -860,7 +853,6 @@
     .header__container-for-button {
         display: flex;
         flex-direction: column;
-
     }
 
     .header__button {
@@ -1020,6 +1012,9 @@
         height: 48px;
         justify-content: center;
         align-items: center;
+    }
+    .footer-vector {
+        padding-left: 5px;
     }
 
 }
