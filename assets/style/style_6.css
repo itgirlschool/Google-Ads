@@ -61,7 +61,7 @@
 .header-text__container {
     width: 90%;
     max-width: 90%;
-    padding-top: 60px;
+    padding-top: 40px;
 }
 
 .header-text__h2 {
@@ -72,23 +72,24 @@
 
 .header-text__h1 {
     font-weight: 900;
-    font-size: 68px;
+    font-size: 60px;
     font-family: 'Inter', sans-serif;
 }
 
 .header-text__p {
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
 }
 
 .header-main {
-    display: flex;
     color: white;
-    padding-top: 80px;
-
+    display: flex;
+    padding-top: 40px;
 }
-
+.header__form {
+    width: 70%;
+}
 .header__form-container {
     background-color: #376FFF;
     border-radius: 10px;
