@@ -65,9 +65,11 @@
                     <div class="header__container-for-button">
                         <button class="header__button">Отправить<img src="/assets/images/page6/Vector.png"
                                 class="header__vector-img" alt="Vector"></button>
-                        <div class="header__checkbox">
-                            <div class="checkbox-img"><img src="/assets/images/page6/Checkbox.png"></div>
-                            <div class="header__checkbox-img" alt="img">Я прочитал и принимаю условия <a href="#"
+                        <div class="checkbox-flex-header">
+                            <input type="checkbox" class="header__checkbox-button" id="checkbox" name="checkbox"
+                                value="yes">
+                            <label for="checkbox" class="label"></label>
+                            <div class="header__checkobox">Я прочитал и принимаю условия <a href="#"
                                     class="header__link">пользовательского
                                     соглашения</a></div>
                         </div>
@@ -181,64 +183,64 @@
     </main>
     <footer class="footer">
         <div class="footer__container">
-            <div class="footer__container-left">
-                <div class="footer__inner-container-left">
-                    <img src="/assets/images/page1/footer-logo.png" alt="logo">
-                    <div class="footer__innercontainer">
-                        <div class="footer__text">
-                            <p class="footer__text-grey">Телефон</p>
-                            <a href="#" class="footer__text-blue">+001 987-654-3210</a>
-                        </div>
-                        <div class="footer__text text-blue">
-                            <a href="#" class="footer__text-blue ">+001 987-654-3210</a>
-                        </div>
-                        <div class="footer__text">
-                            <p class="footer__text-grey">Email</p>
-                            <a href="#" class="footer__text-blue">info@example.com</a>
-                        </div>
-                        <div class="footer__text">
-                            <p class="footer__text-grey">Адрес</p>
-                            <p class="footer__text-dark">123/B, Route 66, Downtown, Washington, DC 20004, US
-                            </p>
+            <div class="footer__inner-container">
+                <div class="footer__container-left">
+                    <div class="footer__inner-container-left">
+                        <img src="/assets/images/page1/footer-logo.png" alt="logo" class="footer__logo">
+                        <div class="footer__innercontainer">
+                            <div class="footer__text">
+                                <p class="footer__text-grey">Телефон</p>
+                                <a href="#" class="footer__text-blue">+001 987-654-3210</a>
+                            </div>
+                            <div class="footer__text text-blue">
+                                <a href="#" class="footer__text-blue ">+001 987-654-3210</a>
+                            </div>
+                            <div class="footer__text">
+                                <p class="footer__text-grey">Email</p>
+                                <a href="#" class="footer__text-blue">info@example.com</a>
+                            </div>
+                            <div class="footer__text">
+                                <p class="footer__text-grey">Адрес</p>
+                                <p class="footer__text-dark">123/B, Route 66, Downtown, Washington, DC 20004, US
+                                </p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <img src="/assets/images/page1/footer-map.png" alt="map" class="footer__img">
-            </div>
-
-            <div class="footer__form">
-
-                <h3 class="footer__header">Есть вопросы?</h3>
-
-                <p class="footer__form-text">Свяжитесь с нами</p>
-
-                <div class="footer__div-for-input"> <input type="text" name="name" value="Имя" class="footer__input">
+                    <img src="/assets/images/page1/footer-map.png" alt="map" class="footer__img">
                 </div>
 
-                <div class="footer__div-for-input"><input type="email" name="email" value="Email" class="footer__input">
-                </div>
-
-                <div class="footer__div-for-input"><input type="tel" name="phone" value="+7 999 999-99-99"
-                        class="footer__input"></div>
-
-                <div class="footer__div-for-input"><textarea type="text" name="text"
-                        class="footer__input footer__input_big">Ваше сообщение</textarea>
-                </div>
-                <div class="footer__container-for-button">
-                    <button class="footer__button">Отправить<img src="/assets/images/page1/footer-vector.svg" class="vector"></button>
-                    <div class="checkbox-flex">
-                        <input type="checkbox" class="footer__checkbox-button" id="checkbox" name="checkbox"
-                            value="yes">
-                        <label for="checkbox" class="label"></label>
-                        <div class="footer__checkobox">Я прочитал и принимаю условия <a href="#"
-                                class="footer__link">пользовательского
-                                соглашения</a></div>
+                <div class="footer__form">
+                    <h3 class="footer__header">Есть вопросы?</h3>
+                    <p class="footer__form-text">Свяжитесь с нами</p>
+                    <div class="footer__div-for-input"> <input type="text" name="name" value="Имя"
+                            class="footer__input">
+                    </div>
+                    <div class="footer__div-for-input"><input type="email" name="email" value="Email"
+                            class="footer__input">
+                    </div>
+                    <div class="footer__div-for-input"><input type="tel" name="phone" value="+7 999 999-99-99"
+                            class="footer__input"></div>
+                    <div class="footer__div-for-input"><textarea name="text"
+                            class="footer__input footer__input_big">Ваше сообщение</textarea>
+                    </div>
+                    <div class="footer__container-for-button">
+                        <button class="footer__button">Отправить<img src="/assets/images/page1/footer-vector.svg"
+                                alt="button"></button>
+                        <div class="footer__container-chekbox">
+                            <input type="checkbox" class="footer__checkbox-button" id="checkbox" name="checkbox"
+                                value="yes">
+                            <label for="checkbox" class="label"></label>
+                            <div class="footer__checkobox">Я прочитал и принимаю условия <a href="#"
+                                    class="footer__link">пользовательского
+                                    соглашения</a></div>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="footer__div-for-text-bottom">
                 <p class="footer__text-bottom">SIA OL © Visas tiesības aizsargātas 2021</p>
             </div>
+        </div>
     </footer>
 
 
