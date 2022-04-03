@@ -1,10 +1,15 @@
+.header__text {
+    max-width: 73%;
+    margin: 0 auto;
+}
+
 .header__text-inner {
     width: 50%;
 }
 
 .header {
     height: 496px;
-    background-image: url(/assets/images/page2/header.png);
+    background-image: url(/assets/images/page1/Rectangle\ 4.png);
     width: 100%;
     max-width: 100%;
     font-family: Inter, sans-serif;
@@ -801,6 +806,10 @@
         background-color: #FFFFFF;
         margin: 0px;
         height: 80px;
+    }
+
+    .header__text {
+        width: 95%;
     }
 
     .header__link {
