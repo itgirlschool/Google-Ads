@@ -1002,6 +1002,10 @@
 
     }
 
+    .main-punkts__inner-container_second {
+        width: 100%;
+    }
+
     /*main-result*/
 
     .main-result {
@@ -1024,7 +1028,6 @@
     .main-result__icon-container {
         width: 95%;
         display: flex;
-        justify-content: space-between;
         margin-bottom: 25px;
 
     }
