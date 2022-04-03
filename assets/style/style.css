@@ -1,4 +1,71 @@
-/*header из smm*/
+.header__text-inner {
+    width: 50%;
+}
+
+.header {
+    height: 496px;
+    background-image: url(/assets/images/page2/header.png);
+    width: 100%;
+    max-width: 100%;
+    font-family: Inter, sans-serif;
+    font-style: normal;
+}
+
+.header__nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.header__link {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+}
+
+.header__link:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.header__btn {
+    padding: 15px;
+    margin: 10px;
+    color: white;
+    background-color: transparent;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    border: 1px solid #C1D3DE;
+    box-sizing: border-box;
+    border-radius: 12px;
+}
+
+.header__btn-clr {
+    color: #C1D3DE;
+}
+
+.header__text {
+    color: white;
+    margin-top: 30px;
+}
+
+.header__h1 {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.header__p {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+
+/*header из smm
 
 .header__text-inner {
     width: 50%;
@@ -68,7 +135,7 @@
     ;
     font-style: normal;
 }
-
+*/
 
 /*info*/
 .info {
