@@ -1,7 +1,12 @@
 /*header*/
 
+.header__text {
+    max-width: 73%;
+    margin: 0 auto;
+}
+
 .header__text-inner {
-    width: 60%;
+    width: 50%;
 }
 
 .header {
@@ -9,6 +14,8 @@
     background-image: url(/assets/images/page4/Rectangle\ 4.png);
     width: 100%;
     max-width: 100%;
+    font-family: Inter, sans-serif;
+    font-style: normal;
 }
 
 .header__nav-container {
@@ -19,13 +26,12 @@
     margin-left: 10px;
 }
 
-.link,
 .header__link {
     text-decoration: none;
     color: white;
-    padding: 25px;
+    padding: 10px;
     font-size: 16px;
-    font-family: Inter, sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 .header__link:hover {
@@ -37,9 +43,9 @@
     padding: 15px;
     margin: 10px;
     color: white;
-    background-color: Transparent;
+    background-color: transparent;
     color: white;
-    font-family: Inter, sans-serif;
+    font-family: 'Inter', sans-serif;
     border: 1px solid #C1D3DE;
     box-sizing: border-box;
     border-radius: 12px;
@@ -50,28 +56,18 @@
 }
 
 .header__text {
-    font-family: Inter, sans-serif;
     color: white;
-    margin-top: 50px;
-    margin-left: 200px;
-}
-
-.h3 {
-    font-family: Inter, sans-serif;
-    font-style: normal;
-    font-weight: 700;
+    margin-top: 30px;
 }
 
 .header__h1 {
-    font-family: Inter, sans-serif;
-    font-size: 68px;
+    font-size: 50px;
     font-weight: 900;
 }
 
 .header__p {
+    font-weight: 400;
     font-size: 20px;
-    font-family: Roboto, sans-serif;
-    font-style: normal;
 }
 
 /*search*/
@@ -626,6 +622,7 @@
 
 @media screen and (max-width: 767px) {
 
+
     .header {
         height: 376px;
     }
@@ -634,6 +631,10 @@
         background-color: #FFFFFF;
         margin: 0px;
         height: 80px;
+    }
+
+    .header__text {
+        width: 95%;
     }
 
     .header__link {
