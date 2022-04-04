@@ -216,8 +216,13 @@
 }
 
 .price__h1,
-.how-we-work__header {
-    font-family: Inter, sans-serif;
+.how-we-work__header,
+.info__header,
+.how-we-work__header,
+.main-difference__header,
+.question_header,
+.main-trust__h2 {
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 38px;
@@ -673,8 +678,13 @@
     .info__container,
     .price__container,
     .main-difference__container,
-    .question__container {
+    .question__container,
+    .footer__container {
         width: 95%;
+    }
+
+    .footer__container-left {
+        width: 100%;
     }
 
     .info__container {
