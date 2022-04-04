@@ -1203,15 +1203,20 @@
     }
 
     .footer__button {
-        width: 270px;
+        width: 95%;
         height: 48px;
         margin-bottom: 10px;
+        justify-content: center;
+    }
+
+    .fotter__img-button {
+        padding-left: 10px;
     }
 
     .footer__container-left {
         display: flex;
         flex-direction: column;
-        width: 280px;
+        width: 100%;
         padding-left: 10px;
         padding-top: 60px;
         padding-bottom: 20px;
