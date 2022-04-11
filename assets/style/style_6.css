@@ -113,7 +113,12 @@
     width: 90%;
     padding: 7px;
 }
-
+input[type=text]::placeholder {
+	color: #C1D3DE;
+}
+textarea[type=text]::placeholder {
+	color: #C1D3DE;
+}
 .header__input,
 .footer__input,
 .footer__button:focus {
@@ -479,8 +484,8 @@
 
 .footer__input {
     background: #376FFF;
-    border: 2px solid #C1D3DE;
-    border-radius: 12px;
+    border: 1px solid #C1D3DE;
+    border-radius: 8px;
     height: 30px;
     font-family: Inter, sans-serif;
     font-style: normal;
