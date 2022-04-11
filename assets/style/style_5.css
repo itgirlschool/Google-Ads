@@ -45,6 +45,7 @@
     border: 1px solid #C1D3DE;
     border-radius: 12px;
 }
+.header__btn:focus {outline: 0;}
 
 .header__btn-clr {
     color: #C1D3DE;
@@ -332,7 +333,7 @@
 .footer__input {
     background: #376FFF;
     border: 2px solid #C1D3DE;
-    border-radius: 12px;
+    border-radius: 10px;
     height: 30px;
     font-family: Inter, sans-serif;
     font-style: normal;
@@ -341,9 +342,13 @@
     color: #C1D3DE;
     width: 90%;
     padding-left: 10px;
-
 }
-
+input[type=text]::placeholder {
+	color: #C1D3DE;
+}
+textarea[type=text]::placeholder {
+	color: #C1D3DE;
+}
 .footer__input:focus {
     outline: 0;
 }
@@ -382,7 +387,7 @@
     border: none;
     margin-right: 5px;
 }
-
+.footer__button:focus {outline: 0;}
 
 .footer__checkobox {
     font-family: Inter, sans-serif;
@@ -411,6 +416,7 @@
 
 .footer__div-for-input {
     margin-bottom: 10px;
+    outline:none;
 }
 
 .footer__checkbox-button {
