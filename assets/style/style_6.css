@@ -87,9 +87,11 @@
     display: flex;
     padding-top: 40px;
 }
+
 .header__form {
     width: 70%;
 }
+
 .header__form-container {
     background-color: #376FFF;
     border-radius: 10px;
@@ -113,12 +115,15 @@
     width: 90%;
     padding: 7px;
 }
+
 input[type=text]::placeholder {
-	color: #C1D3DE;
+    color: #C1D3DE;
 }
+
 textarea[type=text]::placeholder {
-	color: #C1D3DE;
+    color: #C1D3DE;
 }
+
 .header__input,
 .footer__input,
 .footer__button:focus {
@@ -614,6 +619,15 @@ textarea[type=text]::placeholder {
     .header__nav-gamburger {
         display: none;
     }
+
+    .header-text__h2 {
+        font-size: 28px;
+    }
+
+    .main-princ__photo {
+        display: none;
+
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -769,30 +783,31 @@ textarea[type=text]::placeholder {
         display: flex;
         flex-direction: column;
     }
-        .footer__img {
-            padding-top: 40px;
-        }
-    
-        .footer__container-for-button {
-            display: flex;
-            flex-direction: column;
-            align-items: stretch;
-        }
-    
-        .footer__button {
-            width: 254px;
-            height: 60px;
-            justify-content: center;
-        }
-    
-        .footer-vector {
-            padding-left: 10px;
-        }
-    
-        .footer__container-chekbox {
-            display: flex;
-            padding-top: 10px;
-        }
+
+    .footer__img {
+        padding-top: 40px;
+    }
+
+    .footer__container-for-button {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .footer__button {
+        width: 254px;
+        height: 60px;
+        justify-content: center;
+    }
+
+    .footer-vector {
+        padding-left: 10px;
+    }
+
+    .footer__container-chekbox {
+        display: flex;
+        padding-top: 10px;
+    }
 
 
 }
@@ -882,6 +897,10 @@ textarea[type=text]::placeholder {
 
     .header__h3 {
         font-size: 28px;
+    }
+
+    .header__form {
+        width: 100%;
     }
 
     .header__container-for-button {
